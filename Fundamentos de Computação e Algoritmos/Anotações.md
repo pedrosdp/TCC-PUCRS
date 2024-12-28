@@ -44,7 +44,11 @@ Diminuir Latência
 
 GTmetrix (medidor de desempenho)
 
+Fluxo do Usuário e o Que o dev precisa fazer
 
+Visual Studio Code - VS CODE
+
+A web foi para documento
 
 
 
