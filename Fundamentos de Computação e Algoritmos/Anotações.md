@@ -50,6 +50,10 @@ Visual Studio Code - VS CODE
 
 A web foi para documento
 
+Stakeholder - Termo utilizado que se refere às partes interessadas que devem estar de acordo com as práticas executadas pela empresa.
 
+Indetação - Termo aplicado ao código fonte de um programa para ressaltar ou definir a estrutura do algoritmo. Empregada com objetivo de ressaltar a estrutura do algoritmo, aumentando a legibilidade do código.
 
+Google maps = SERVICES = **API** - Aplication Programming Interface
 
+Banco de dDados de Chave-Valor : Paradigma de armazenamento de dados projetado para armazenar, recuperar e gerenciar matrizes assosciativas e uma estrutura de dados mais comumente conhecida hoje como dicionáro ou tabela hash.
