@@ -1,3 +1,5 @@
+**Aula 1 e 2- Mario Souto**
+
 Servidor em Nuvem: É um grupo de Máquinas físicas trabalhando juntas, como uma só onde caso ocorroa algum problema com uma delas, outra máquina assumirá a carga, impedindo que um sistema ou site fique fora do ar.
 
 Latência: Medida de velocidade de conexão
@@ -57,3 +59,54 @@ Indetação - Termo aplicado ao código fonte de um programa para ressaltar ou d
 Google maps = SERVICES = **API** - Aplication Programming Interface
 
 Banco de dDados de Chave-Valor : Paradigma de armazenamento de dados projetado para armazenar, recuperar e gerenciar matrizes assosciativas e uma estrutura de dados mais comumente conhecida hoje como dicionáro ou tabela hash.
+
+Banco de Dados - Abstração
+
+Inversão de controle = Coluna/valor/id_registro
+
+Datadomic Cloud.
+
+Wordpress = Ferramenta que abstrae o banco de dados
+
+Navegador: Html 5 e CSS e JavaScript;
+Requests (imagens, arquivos, videos)
+Histórico
+
+Fila = Quem entra primeiro sai primeiro; Ordem Importa; 
+
+Arrays = Guarda Espaços 
+- Push (Adiciona no Final da fila) 
+- Shift (Remove primero da Fila)
+
+Receita para criar filas
+-enqueue
+-dequeue
+
+Objeto = Atributos e funções
+
+Class: Receita para criar objetos
+
+Design First e Princípios;
+
+Open Closed = Aberto para extensão Fechado para modificação
+
+Estrutura de dados:
+FIFO - First in First Out - Fila
+LIFO - Last in First Out - Pilha
+
+MDN WEB DOCS.. Fornece infomações sobre tecnologias Open Web, incluindo HTML, CSS e Apis para sites e aplicativos da WEB progressivos. 
+
+**Test Driven Development**
+QUOKKA - Mostrar em Tempo REAL;
+
+MAP = Estrutura de dados (LISTA) - Evitar duplicata
+
+SET = Evita inserir iguais
+
+Aula 03 - Edson Ifarraguirre Moreno
+
+Problema -> Algoritmo -> solução
+
+VScode e Node.JS (terminal)
+
+Java 
