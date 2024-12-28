@@ -1,112 +1,133 @@
-**Aula 1 e 2- Mario Souto**
+**Aulas 1 e 2 - Mario Souto**
 
-Servidor em Nuvem: É um grupo de Máquinas físicas trabalhando juntas, como uma só onde caso ocorroa algum problema com uma delas, outra máquina assumirá a carga, impedindo que um sistema ou site fique fora do ar.
+Conceitos Fundamentais
 
-Latência: Medida de velocidade de conexão
+Servidor em Nuvem: Conjunto de máquinas físicas trabalhando como um único sistema. Caso uma máquina falhe, outra assume a carga, garantindo a continuidade do serviço.
 
-ENIAC - Primeiro computador
+Latência: Medida da velocidade de conexão entre solicitação e resposta.
 
-MVP - Mínimo Produto Viável
+ENIAC: Primeiro computador digital eletrônico de grande escala.
 
-Navegador (cliente) - Servidor / Request e Response/ - Banco de dados
+MVP (Mínimo Produto Viável): Versão básica de um produto que atende às funções essenciais.
 
-Entrada - Processo - Saída
+Modelo Cliente-Servidor
 
-Cliente - Server = Limite de processamento
+Funcionamento: Navegador (cliente) → Solicitação (Request) → Servidor → Resposta (Response) → Banco de Dados.
 
-Erro 500 - Servidor não disponível
+Processamento: Entrada → Processo → Saída.
 
-Como resolver o problema de muitas pessoas querendo acessar um SISTEMA? 2 sistemas? **Load Balancer** Balanceador de Cargas
+Erro 500: O servidor está indisponível para processar solicitações.
 
-12 Factors - Doze fatores pode ser aplicada a aplicações escritas em qualquer linguagem de programação e que utilizem qualquer combinação de serviços de suportes.
+Escalabilidade e Performance
 
-Não precisa tudo em tempo real.
+Problema de alta demanda: Utilizar dois sistemas ou um Load Balancer (Balanceador de Carga).
 
-Escalar.. horizontalmente x verticalmente
+Escalabilidade:
+Horizontal: Adicionar máquinas menores.
+Vertical: Aumentar a capacidade de uma máquina existente.
 
-Conteúdo Estático: World Wide Web - 
+Performance e UX: Sensação de rapidez para o usuário.
 
-Cloudflare - Guardar conteúdo estático (Cache)
+Espera Passiva: Usuário espera sem interação.
+Espera Ativa: Elementos como animações ou jogos.
 
-Server Side Rendered - AWS (AMAZON) / VERCEL (interface melhor)
+Técnicas e Ferramentas
+12 Factors: Princípios aplicáveis a aplicações em qualquer linguagem.
 
-Fila e Escalonamento = Cliente / Queue / Server
+Cloudflare: Cache de conteúdo estático para melhorar o desempenho.
 
-Queue - Sistema de Fila - Estrutura de dados
+Server-Side Rendered (SSR): Conteúdo dinâmico processado no servidor antes de ser enviado. Exemplos: AWS, Vercel.
 
-Performance é UX = Sensação que é rápido
+GTmetrix: Ferramenta para medir o desempenho de sites.
 
-**Espera Passiva** **Espera Ativa** (jogo do dinossauro)
+Minificação e Concatenar: Otimização de arquivos para reduzir latência.
 
-26 técnicas de otimização do site.
+Estruturas e Práticas
+Fila (Queue): Estrutura FIFO (First In, First Out). Ex.: Quem entra primeiro sai primeiro.
 
-Minificar e Concatenar (OTIMIZAR)
+Métodos: enqueue (adicionar), dequeue (remover).
 
-Diminuir Latência
+Arrays: Estruturas para armazenar dados em sequência.
+Métodos:
+push: Adicionar no final.
+shift: Remover do início.
 
-GTmetrix (medidor de desempenho)
+Objetos e Classes:
 
-Fluxo do Usuário e o Que o dev precisa fazer
+Objeto: Conjunto de atributos e funções.
 
-Visual Studio Code - VS CODE
+Classe: Receita para criar objetos.
 
-A web foi para documento
+Open-Closed Principle: Código aberto para extensão, mas fechado para modificação.
 
-Stakeholder - Termo utilizado que se refere às partes interessadas que devem estar de acordo com as práticas executadas pela empresa.
+APIs (Application Programming Interface): Serviços que permitem interação entre sistemas, como Google Maps.
 
-Indetação - Termo aplicado ao código fonte de um programa para ressaltar ou definir a estrutura do algoritmo. Empregada com objetivo de ressaltar a estrutura do algoritmo, aumentando a legibilidade do código.
+**Aula 3 - Edson Ifarraguirre Moreno**
 
-Google maps = SERVICES = **API** - Aplication Programming Interface
+Introdução ao JavaScript
+JavaScript: Linguagem baseada em objetos, dinâmica e 
+fracamente tipada, interpretada em navegadores.
 
-Banco de dDados de Chave-Valor : Paradigma de armazenamento de dados projetado para armazenar, recuperar e gerenciar matrizes assosciativas e uma estrutura de dados mais comumente conhecida hoje como dicionáro ou tabela hash.
+Declaração de variáveis:
+let: Variável mutável dentro de um escopo.
+const: Constante imutável.
+var: Variável mutável global (não recomendado).
 
-Banco de Dados - Abstração
+Estruturas e Comandos
 
-Inversão de controle = Coluna/valor/id_registro
+Comandos de Repetição:
+for, while, do/while.
 
-Datadomic Cloud.
+Comandos de Seleção:
+if, else, switch.
 
-Wordpress = Ferramenta que abstrae o banco de dados
+Modularização: Utilização de funções (function() {}) para organizar o código.
 
-Navegador: Html 5 e CSS e JavaScript;
-Requests (imagens, arquivos, videos)
-Histórico
+Operadores:
+Aritméticos, incremento/decremento, relacionais e lógicos.
 
-Fila = Quem entra primeiro sai primeiro; Ordem Importa; 
+Estruturas de Dados
 
-Arrays = Guarda Espaços 
-- Push (Adiciona no Final da fila) 
-- Shift (Remove primero da Fila)
+Arrays: Permitem armazenar múltiplos valores de forma contínua.
 
-Receita para criar filas
--enqueue
--dequeue
+Métodos úteis: length, push, pop, shift, unshift, splice, slice, at.
 
-Objeto = Atributos e funções
+Set: Armazena valores únicos, excluindo duplicados automaticamente.
 
-Class: Receita para criar objetos
+Map: Estrutura que associa chaves a valores. Aceita qualquer tipo de dado e evita repetição de chaves.
 
-Design First e Princípios;
+Listas Encadeadas:
+Nodos com referências para o próximo elemento.
+Operações: add, get, remove.
 
-Open Closed = Aberto para extensão Fechado para modificação
+Árvores: Estruturas não-lineares que permitem algoritmos eficientes.
 
-Estrutura de dados:
-FIFO - First in First Out - Fila
-LIFO - Last in First Out - Pilha
+Conceitos: Pai, filho, raiz, folha, galhos.
+Tipos: Árvore binária (máximo 2 filhos por nó).
 
-MDN WEB DOCS.. Fornece infomações sobre tecnologias Open Web, incluindo HTML, CSS e Apis para sites e aplicativos da WEB progressivos. 
+Técnicas e Algoritmos
 
-**Test Driven Development**
-QUOKKA - Mostrar em Tempo REAL;
+Recursão: Solução de problemas dividindo-os em partes menores até alcançar a resolução completa.
 
-MAP = Estrutura de dados (LISTA) - Evitar duplicata
+Algoritmos de Ordenação:
+Simples: Bubble Sort, Selection Sort, Insertion Sort.
+Avançados: Merge Sort, Quick Sort.
+Busca:
+Linear: Percorre todos os elementos.
+Binária: Divide o conjunto para encontrar rapidamente um elemento.
 
-SET = Evita inserir iguais
+Complexidade Algorítmica
+Mede eficiência de um algoritmo com base em:
+Tempo de execução.
+Espaço ocupado na memória.
 
-Aula 03 - Edson Ifarraguirre Moreno
+Notação Big-O: Representa o comportamento do algoritmo em termos de desempenho.
 
-Problema -> Algoritmo -> solução
+Ferramentas Importantes:
 
-VScode e Node.JS (terminal)
+VS Code: Editor de código amplamente utilizado.
+Node.js: Ambiente de execução para JavaScript no servidor.
 
-Java 
+MDN Web Docs: Fonte confiável para aprender tecnologias da web.
+
+Quokka.js: Ferramenta para mostrar resultados de código em tempo real.
