@@ -18,3 +18,34 @@ Como resolver o problema de muitas pessoas querendo acessar um SISTEMA? 2 sistem
 
 12 Factors - Doze fatores pode ser aplicada a aplicações escritas em qualquer linguagem de programação e que utilizem qualquer combinação de serviços de suportes.
 
+Não precisa tudo em tempo real.
+
+Escalar.. horizontalmente x verticalmente
+
+Conteúdo Estático: World Wide Web - 
+
+Cloudflare - Guardar conteúdo estático (Cache)
+
+Server Side Rendered - AWS (AMAZON) / VERCEL (interface melhor)
+
+Fila e Escalonamento = Cliente / Queue / Server
+
+Queue - Sistema de Fila - Estrutura de dados
+
+Performance é UX = Sensação que é rápido
+
+**Espera Passiva** **Espera Ativa** (jogo do dinossauro)
+
+26 técnicas de otimização do site.
+
+Minificar e Concatenar (OTIMIZAR)
+
+Diminuir Latência
+
+GTmetrix (medidor de desempenho)
+
+
+
+
+
+
