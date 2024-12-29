@@ -107,7 +107,7 @@ Pipeline: Conjunto de etapas automatizadas. Cadeia de execução.
 
 Pipeline CI (Integração Contínua) Codificação - Commit - Build - Teste - Geração de Pacote de entrega; Todas as etapas que são necesśarias para entrega minimizando os erros;
 
-Deploy Contínuo - Release;Teste;Aceite;Deploy em Produção.
+Deploy (implantar) Contínuo - Release;Teste;Aceite;Deploy em Produção.
 
 GitLab;
 Github Actions - Workflow, Events, Jobs, Steps, Actions, Runners;
@@ -115,3 +115,20 @@ Github Actions - Workflow, Events, Jobs, Steps, Actions, Runners;
 Pipeline: https://github.com/pedrosdp/conversao-temperatura
 
 Kubernetes - Sistema de código aberto para automatizar a implantação, o dimensionamento e o gerenciamento de aplicativos em containers. Agrupa os containers.
+
+Aula 3 - Marco Aurélo Souza Mangan
+
+Conjunto de Configurações: PetClinic serve como demonstração das capacidades de um framework de desenvolvimento de softwares. Plataforma Java.
+
+Importante: a implementação é gradual;
+
+Lean = Enxuto
+
+Left-shift o shift-left = priorizar participação dos envolvidos ao aplicar atividades de garantia de qualidade, segurança, privacidade, desempenho, verificão e validação MAIS CEDO.
+
+Automação
+
+
+
+
+
