@@ -79,8 +79,6 @@ Git Merge = Copiar uma branch
 
 Fork = Cópia de um repositório -  Realizado no https://github.com/pedrosdp/conversao-temperatura
 
-Criada a pipeline;
-
 *Containers*: Padronização, Involucro; Portabilidade; Confiabilidade; Idempotência (Sempre o mesmo comportamento);
 
 Todos os processos da minha etapa de criação de ambiente e execução de aplicações serão feitos em containers.
@@ -114,4 +112,5 @@ Deploy Contínuo - Release;Teste;Aceite;Deploy em Produção.
 GitLab;
 Github Actions - Workflow, Events, Jobs, Steps, Actions, Runners;
 
+Pipeline: https://github.com/pedrosdp/conversao-temperatura
 
