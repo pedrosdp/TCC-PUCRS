@@ -114,3 +114,4 @@ Github Actions - Workflow, Events, Jobs, Steps, Actions, Runners;
 
 Pipeline: https://github.com/pedrosdp/conversao-temperatura
 
+Kubernetes - Sistema de código aberto para automatizar a implantação, o dimensionamento e o gerenciamento de aplicativos em containers. Agrupa os containers.
