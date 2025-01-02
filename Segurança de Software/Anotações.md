@@ -44,5 +44,9 @@ Atenção: Não tentem inventar uma criptografia, utilizem os algoritmos que já
 Simétrica: Mesma chave. Velocidade (Menos recurso computacional);Segurança;Financeiras e comunicações
 
 Assimétrica: Par de chaves. Chave pública distribuída livremente. Chave privada mantida em segredo.
+Certificado digital;
+Assinatura digital;
+
+
 
 
