@@ -89,4 +89,61 @@ PHp,PHYTON, RUBY, Node.js
 Banco de dados: MySQL e Postgre
 frameworks disponíveis.
 
+Tipos de Sistemas WEB 
+    
+    **SPA (Sigle Page Application): é um modelo de desenvolvimento. Única página web. O conteúdo todo. Mais rápida e Mais fluida.
+    AJAX: Chamada Assincrona
+    E-Commerce, Rede sociais, jogos online.
+    Redução da Carga do Servidor
+    Melhor escalabilidade e manutenibilidade
+    Maior interatividade e personalização
+    Benefícios: Velocidade.Melhor experiência. Desenvolvimento mais fácil. Arquitetura modular. Acesso off-line. Maior segurança. Facilidade de manutenção. 
+    1 paǵiana HTML e usa JavaScript e AJAX
+    Arquitetura: View; Modelo; Controlador; Serviços; Roteamento; Gerenciador de estado; Bibliotecas e frameworks;
+    Exemplo: GMAIL
+    
+    **MPA (Multi Page Application): cada página é carregada como uma página separada, com sua URL, e as ações do usuário geralmente exigem o carregamento de uma nova página. Várias páginas HTML independentes. 
+    Mecanimos de busca são mais amigáveis.
+    Manutenção mais fácil.
+    Rápido tempo de carregamento. Apenas o necessário.
+    Boa usabilidade.
+    Desvantagens: Transições mais lentas. Requisições de servidor. Dificuldade mem gerenciar o estado do aplicativo. 
+    Arquitetura: Cada página é carregada em resposta a uma requisição do cliente.
+    Exemplo: AMAZON
 
+    **PWA (Progressive Web APP): São aplicativos web que oferecem uma experiência de usuário semelhante à de um aplicativo móvel nativo mas que são executados em um navegador da web. Combinação entre um "site" e um aplicativo móvel.
+    Acessibilidade e facilidade de desenvolvimento
+    Pode ser encontrada em mecanismos de busca
+    URL
+    Aprimoramento progressivo
+    Enviar notificações
+    SER RESPONSIVA.. diferentes dispositivos.
+    Sempre HTTPS
+    Instalação fácil. não requer download 
+    Benefícios: Desenvolvimento mais rápido e fácil, custos reduzidos. Fácil manutenção. Multiplataforma. Melhor experiência do usuário. Fácil distribuição.
+    Service Workers: Scripts em segundo plano. 
+    Manifesto da Web em PWA é um arquivo JSON que contém informações sobre a aplicação web progressiva como: nome, ícone, cor de tema, orientação de tela, entre outras. É importante para que a PWA possa ser adicionada à tela inicial do dispositivo e se comportar de forma semelhante a um aplicativo nativo.
+    Exemplo: Twitter Lite; starbucks; 
+
+    //Projeto para WEB: Serve para ter um modelo e ganhar em qualidade.
+
+    TOPO da pirâmide (Usuário)
+    1) Projeto de interfaces
+    2) Projeto estético (ou de layout)
+    3) Projeto Conteúdo
+    4) Projeto de Arquitetura - Modelos
+    5) Projeto de Navegação
+    6) Projeto em nível de componentes
+    BASE da pirâmide (tecnologia)
+    
+   Exemplo prático: Projeto de mobilidade para desenvolvimento WEBAPPS
+    
+    Aplicativo de delivery de comida;
+
+Conceitos HTML
+
+Elementos, etiqueta (TAG) e atributos.
+
+Tag simples e Tag dupla;
+
+Acentos <meta charset="UTF-8"> dentro do HEAD
