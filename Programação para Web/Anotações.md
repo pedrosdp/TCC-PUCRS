@@ -147,3 +147,12 @@ Elementos, etiqueta (TAG) e atributos.
 Tag simples e Tag dupla;
 
 Acentos <meta charset="UTF-8"> dentro do HEAD
+
+Formulários <form>
+
+CSS
+JavaScript client side
+Manipulação do DOM; adicionar remover Formato de árvore. Pai, filhos e irmãos
+
+Aula 3 - Luiz Fernando Palanella Gonzalesz.
+

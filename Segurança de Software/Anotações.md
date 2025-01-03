@@ -45,8 +45,48 @@ Simétrica: Mesma chave. Velocidade (Menos recurso computacional);Segurança;Fin
 
 Assimétrica: Par de chaves. Chave pública distribuída livremente. Chave privada mantida em segredo.
 Certificado digital;
-Assinatura digital;
+Assinatura digital; Autencidade e Integridade.
 
+HASH: Uma forma de criptografia que usa um algoritmo matemático para transformar uma mensagem em uma string de caracteres fixa.
+Em jogos, as funções hash são usadas para gerar números aleatórios para personagens, objetos e eventos. 
+Tecnologias blockchain
+AES e SHA256
 
+Implementação correta do algoritmos de criptografia. 
+-Dados em repouso (local)
+-Dados em movimento
+Bitlocker da Microsoft (Dados da máquina criptografados)
+VPN (canal seguro de comunicação)
 
+Cofres de senha: software ou hardware; 
+Facilita a gestão do ciclo de vida.
+Exemplo: Vault, Azure, AWS, etc
+
+Prevenção de ataques
+-Salting> técnica de criptografia usada para proteger senhas em banco de dados, que adiciona um valor único e secreto, conhecido como salt, a cada senha antes de criptografá-la e armazena-la˜
+-Hashing> procsso matemático que converte um bloco de dados em um valor de comprimento fixo.
+
+Teste e Auditoria: Revisão de código. Conflitos. 
+Exemplo: Ao escrever código (1ª linha) pode-se ter o papel de uma empresa (2ª linha auxiliando) e uma auditoria (3ª linha testando).
+
+Padrões de criptografia
+AES - Advanced Encryption Standard)
+RSA - Rivest-Shamir-Adleman
+SHA - Secure Hash Algorithm
+
+Protocolos de Comunicação SEGURA
+    Modelos Referencial OSI
+Conjunto de regras e procedimentos
+É um modelo teórico de rede que define sete camadas diferentes que descrevem como os dispositivos de rede devem se comunicar entre si.
+
+7 camadas
+Aplicação - Interfaces com Aplicativos
+Apresentação - Formatos/Criptografia
+Sessão - Controle de Sessões entre Aplicativos
+Transporte - Conexão entre host/Portas
+Rede - Endereço lógico/ Roteadores
+Enlace - Endereço físico/ Pontes e Switches
+Físico - Hardware-Sinal Elétrico
+
+LIBSIGNAL - Criptografia de ponta a ponta;
 
