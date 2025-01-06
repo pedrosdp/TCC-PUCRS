@@ -154,5 +154,5 @@ CSS
 JavaScript client side
 Manipulação do DOM; adicionar remover Formato de árvore. Pai, filhos e irmãos
 
-Aula 3 - Luiz Fernando Palanella Gonzalesz.
+Aula 3 - Luiz Fernando Palanella Gonzalez.
 

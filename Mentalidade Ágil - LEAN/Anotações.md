@@ -42,11 +42,38 @@ Poucas coisas; muito bem feitas;
 "Sucesso e Fracasso são da equipe"
 
 Manifesto Ágil
-12 princípios
+12 princípios dentro do LEAN
 
-Começo meio e fim = Ágeis
+Começo meio e fim = Métodos Ágeis
 Operação (entregas frequentes) = Lean
 
+Mentalidade;
+Cultura Organizacional; Hábitos e Comportamentos
 
+Envolver os stakeholders;
+Visão Compartilhada;
+Critérios de sucesso;
+Feedback;
 
+Desenvolver regras do jogo
 
+Descobrir motivadores individuais e de equipes
+
+Priorizar o trabalho de maneira colaborativa
+
+Preparar profissionais para solucionar os problemas
+
+10 Moving motivators 
+
+Pensamento Sistêmico: Um sistema deve ser gerenciado. Ele não vai gerenciar a si mesmo. 
+
+Conexão entre pessoas e equipes.
+
+Value Stream Mapping; Desenhar; Fluxo;
+
+Liderança; ambiente seguro.
+
+Comportamento Ágil
+    **Hábitos;
+    **Proatividade, Adaptabilidade, Resiliência
+    
