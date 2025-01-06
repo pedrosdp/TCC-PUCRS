@@ -156,3 +156,11 @@ Manipulação do DOM; adicionar remover Formato de árvore. Pai, filhos e irmão
 
 Aula 3 - Luiz Fernando Palanella Gonzalez.
 
+SPA-MPA (Single page ou Multi page)
+
+PWA - Aplicações web progressivas - Mais ferramentas. Mais recursos.
+    Tem que ser HTTPS;
+    Manifesto WEB - JSON   
+    Service Worker - Página Offline. Call back.
+
+
