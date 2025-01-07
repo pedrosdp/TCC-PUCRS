@@ -198,4 +198,18 @@ Tema Escuro
 Animação reduzida: Algumas pressoas preferem desativar as animações no sistema;
     Media query @media(prefers-reduced-motion: reduce)
 
-    
+Devemos desenvolver site acessível? Sim, pelo menos pensar; Observe o contraste de cor do seu site;
+
+Diversos detalhes devem ser evitados para não prejudicar o acesso a determinados tipos de pessoas;
+
+boa prática: semântica
+
+Componentes> Bootstrap, Material design 
+Atributos ARIA (Accessible Rich Internet Applications para ajudar)
+
+web Components: padrão W3C
+Shadow DOM: Permitem isolar o componente do resto da página.
+Classe: HTMLElement: pode gerar eventos.
+
+script date range!
+

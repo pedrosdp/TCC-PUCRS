@@ -77,3 +77,71 @@ Comportamento Ágil
     **Hábitos;
     **Proatividade, Adaptabilidade, Resiliência
     
+Práticas de LEAN AGILE
+
+Equipes>>
+Stream-aligned = Equipes que trabalham as entregas; 
+Complicated Subsystem = equipes especialização;
+Platform = Suporte de plataformas que servem outras equipes;
+Enablement = Equipes que vão cuidar do desenvolvimento das habilidades;
+
+Scrum, XP e Kanban a fim de:
+
+Trabalhar em iterações curtas;
+Quebrar trabalho, user stories história do usuário; gerenciadas no backlog da equipe.
+Planejar em conjunto o trabalho da próxima iteração;
+Comunicar, se falar periodicamente (Reuniões Diárias) - Testar a realidade;
+No final das iterações (sprints): É importante que, a cada 15 dias, a gente entenda, no mínimo, se estamos no caminho certo em relação aquela entrega.
+Retrospectiva - Cerimônias Finais
+
+Quadros Kanban; melhorar gargalos a fim de melhorar o fluxo e limitar o Work in progress (WIP)
+1)backlog
+2)analisar
+3)revisar
+4)construir
+5)integrar e testar
+
+Práticas para equipes de equipes
+    Solution Trains (STs) - MACRO
+        Agiles Release Trains (ARTs)
+
+Práticas 
+    Alinhar o portfolio com foco na estratégica;
+    Embutir qualidade aos processos e às entregas, evitando retrabalho e atrasos;
+    Manter o fluído através da avaliação objetiva dos sistemas de execução;
+    Revisão do trabalho em PARES;
+    Reduzir dependências; Ownership* decisão;
+    Automatizar ao máximo
+
+Criar unidades de valor!
+
+Definição de PRONTO; DoD (definition of Done)
+
+MVP = Produto mínimo viável
+    Mínimo para aprender com o produto.
+    Armadilhas confundir MVP como protótipo.
+    MVP deve ser observado.
+    Evite pensar só em monetizar.
+    Evitar manter produtos que deveriam ser descontinuados.
+    Não pode ignorar feedbacks do usuário.
+
+Melhoria Contínua (Kaizen)
+    Gestão Enxuta
+        muda 7 principais desperdícios
+        mura desníveis ou inconsistẽncias no fluxo
+        muri fluidez de trabalho
+
+PDCA - Plan, Do, Check, Act -> Infinito.
+
+RCA - Análise de causa RAIZ. técnica praticada para resolver. Por quê? Por quê? até a causa raiz...
+
+Pull - Puxar
+
+Just in time -> 3 práticas: Takt Time (frequência); Continuos Flow. Pull System;
+
+KANBAN: é um sistema pull de gestão visual que facilita a identificação de desperdícios, inconsistências e desbalanceamentos em fluxos de valor.
+
+Gestão Visual: É a proposta de usar elementos visuais simples e instintivos oara comunicar informações importantes. Facilitar compreensão.
+
+
+
