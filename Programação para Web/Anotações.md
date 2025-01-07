@@ -160,7 +160,42 @@ SPA-MPA (Single page ou Multi page)
 
 PWA - Aplicações web progressivas - Mais ferramentas. Mais recursos.
     Tem que ser HTTPS;
-    Manifesto WEB - JSON   
-    Service Worker - Página Offline. Call back.
+    Manifesto WEB - Arquivo - JSON   
+    Service Worker - Página Offline.
 
+Lighthouse - gerar relatório;;
 
+O tipo de usuário é variado. W3C (padrões) mantém o Web accessibility initiative *WAI*
+
+Web design responsivo; 
+    Responsivo = CSS - Media queries
+        Adaptativo = Serviodor
+
+Conteúdo é como água; tem que se adaptar;
+
+Mobile-First: em primeiro lugar o mobile;
+
+Break Point: Pontos de quebra 
+    Bootstrap  (6 níveis) px
+    material Desing (4 níveis)
+
+Mobile-first não é somente largura de tela. Tamanho de texto razoável. Layout usável;
+
+Cada FRAMEWORK faz da sua forma;
+
+SVG - Scalable Vector Graphics: Imagem vetorial (escalável)
+    O mesmo grupo que mantém especificaçẽs do HtmL, CSS e JavaScript, também define muitas outras
+    TAG SVG
+
+Tema Escuro
+    Fadiga visual
+    Afeta o sono - Luz azul
+    Minimalista e moderno
+    CSS Media query perfers-color-scheme 
+        light
+        dark
+
+Animação reduzida: Algumas pressoas preferem desativar as animações no sistema;
+    Media query @media(prefers-reduced-motion: reduce)
+
+    
