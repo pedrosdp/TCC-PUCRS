@@ -1,215 +1,138 @@
-Aula 1 e 2 - Andrea Konzen
+# **Aula 1 e 2 - Andrea Konzen**
 
-Histórico
-1970 - ARPANET
-1983 - Protocolo TCP/IP
-1991 - HTML - WWW
-2000 - Meio fundamental de comunicação
+## **Histórico da Web**
+- **1970:** ARPANET.
+- **1983:** Protocolo TCP/IP.
+- **1991:** HTML e World Wide Web (WWW).
+- **2000:** Tornou-se meio fundamental de comunicação.
 
-Web 1.0 (estática): criação na mão de poucos.
+## **Evolução da Web**
+1. **Web 1.0 (Estática):** Criação de conteúdo na mão de poucos.
+2. **Web 2.0 (Interativa):** Usuários passaram a ser criadores de conteúdo.
+3. **Web 3.0 (Interativa Inteligente):** Uso de inteligência artificial e personalização.
 
-Web 2.0 (interativa): público virou criador de conteúdo
+---
 
-Web 3.0 (interativa inteligente): Inteligência artificial; Personalização;
+## **Arquitetura Web e Características**
+Conjunto de padrões, princípios, técnicas e boas práticas para projetar e desenvolver sistemas e aplicações web.
 
-**Arquitetura Web e características**
+### **Componentes Principais**
+1. **Estrutura.**
+2. **Componentes da aplicação.**
+3. **Regras.**
+4. **Protocolos de comunicação.**
 
-Conjunto de padrões, princípios, técnicas e boas práticas utilizados para projetar e desenvolver sistemas e aplicações web.
+### **Práticas Importantes**
+- Estruturação com HTML e CSS.
+- Integração com back-end.
+- Escolha de ferramentas e tecnologias apropriadas (escalabilidade, desempenho, segurança).
 
-1) Estrutura
-2) Componentes da aplicação
-3) Regras
-4) Protocolos de comunicação entre os componentes
+---
 
-Estruturação HTML + CSS
-Integração com back-end
-Escolha de ferramentas e tecnologias apropriadas (escalabilidade, desempenho, segurança)
+## **Arquiteturas Web**
+1. **Cliente-Servidor (3 camadas):**
+   - **Camadas:** Front-end, back-end, banco de dados.
+2. **Orientada a Serviços (SOA):**
+   - Serviços independentes, responsáveis por tarefas específicas.
+   - Mais flexível e acessível por outros componentes.
+3. **Baseada em Microserviços:**
+   - Dividida em microsserviços independentes que se comunicam via APIs.
+   - Alta tolerância a falhas e flexibilidade na escolha de tecnologias.
 
-Arquiteturas 
+---
 
-Cliente-servidor - 3 camadas - Front-end; back-end; banco de dados;
+## **Tipos de Aplicações Web**
+### **SPA (Single Page Application):**
+- **Descrição:** Única página web com atualizações dinâmicas via JavaScript e AJAX.
+- **Benefícios:**
+  - Maior interatividade e personalização.
+  - Melhor escalabilidade e manutenção.
+  - Acesso offline e maior segurança.
+- **Exemplo:** Gmail.
 
-Orientada a serviços (SOA) - Serviços independentes. Cada serviço é responsável por um tarefa específica. Serviço que pode ser acessado por outros componentes. Mais flexíveis.
+### **MPA (Multi Page Application):**
+- **Descrição:** Cada página é carregada separadamente com URLs distintas.
+- **Benefícios:**
+  - Amigável para mecanismos de busca.
+  - Tempo de carregamento rápido.
+- **Desvantagens:**
+  - Transições mais lentas.
+  - Mais requisições ao servidor.
+- **Exemplo:** Amazon.
 
-Baseada em microserviços - Dividida em microsserviços independentes que se comunicam entr si por meio de APIs. Podem ser facilmente substituídos ou atualizados sem afetar o restante do sistema. Maior tolerância a falhas.
-Permite que cada microserviço seja desenvolvido com a linguagem de programação e tecnologia mais adequadas para a funcionalidade específica. 
+### **PWA (Progressive Web App):**
+- **Descrição:** Aplicativos web que funcionam como apps nativos, executados no navegador.
+- **Benefícios:**
+  - Fácil manutenção e multidevices.
+  - Funcionalidade offline via Service Workers.
+  - Manifesto Web (JSON) para informações como ícone e tema.
+- **Exemplo:** Twitter Lite, Starbucks.
 
-Aplicações WEB -
-Estrutural - Informações importantes (requisitos)
-Navegacional - Navegação ao sistema
-Apresentação - Para o usuário
+---
 
-Protocolos - É uma convenção que controla e possibilita conexão, comunicação, transferência de dados entre dois sistemas computacionais. Responsaveis por coletar os dados transmitidos pela rede e dividí-los em pequenos pedações (Origem e destino)
+## **Protocolos de Internet**
+- **TCP/IP:** Padrão para comunicação de dados em redes.
+- **HTTP/HTTPS:** Transferência de hipertexto. HTTPS oferece camada extra de segurança (TLS).
+- **FTP:** Transferência de arquivos.
+- **DNS:** Tradução de nomes de domínio para endereços IP.
+- **SMTP/POP3/IMAP:** Envio e recebimento de e-mails.
+- **SSH:** Comunicação segura com criptografia.
 
-Sintaxe-Semantica e Timing
+---
 
-Protocolos de Internet
-TCP-IP - Padrão da internet. Usado para transmitir dados entre dispositivos em redes.
-HTTP-HTTPS - Transferência de hipertexto.
-FTP - Transferência de Arquivos
-DNS - Nomes de domínios em IP
-SMTP-POP3-IMAP - Enviar e receber e-mail (correio simples)
-ICMP - 
+## **Estrutura da Rede (Modelo de 5 Camadas)**
+1. **Aplicação:** Protocolos como HTTP, FTP, DNS, SSH.
+2. **Transporte:**
+   - **TCP:** Comunicação confiável e ordenada.
+   - **UDP:** Comunicação rápida, sem garantia de entrega.
+3. **Rede:** Roteamento e envio de pacotes.
+4. **Enlace:** Comunicação entre dispositivos conectados.
+5. **Física:** Transmissão de dados no hardware.
 
--REDE 5 camadas
+---
 
-1 aplicação (HTTP; FTP; SMTP; DNS; SSH; TLS): Responsável por toda comunicação entre aplicativos em diferentes dispositivos de rede. Define formatos de mensagens e regras de comunicação.
+## **Front-End**
+- **Tecnologias:** HTML, CSS, JavaScript.
+- **Frameworks:** Vue.js.
+- **HTML:**
+  - Tags como `<html>`, `<head>`, `<title>`, `<body>`.
+- **CSS:** Estilo visual e responsividade.
+- **JavaScript:** Interatividade com o usuário.
 
-HTTP: Transferência de dados na WEB.
-HTTPS: Camada adicional de segurança (TLS) - Conexão criptografada.
-FTP: Transferência de Arquivos
-SMTP: Transferência de e-mails (Envio)
-DNS: Tradução de nomes de domínio em endereços IP.
-SSH: Comunicação segura entre computadores (Criptografia) - Acesso remoto seguro, transferência seguro, acesso banco de dados
-TLS: Criptografia de dois computadores. Compras online e dados bancários. 
+---
 
-2 transporte (TCP e UDP) Comunicação confiável e eficiente. Sem erros e em ordem correta e com uma velocidade adequada.
+## **Back-End**
+- **Definição:** Lógica de negócios, sistemas e banco de dados.
+- **Tecnologias:** PHP, Python, Ruby, Node.js.
+- **Bancos de Dados:** MySQL, PostgreSQL.
 
-TCP : Complementado pelo IP. Bastante versátil; Função principal: Verificar se os dados que circulam entre os dispositivos de uma rede são enviados de forma correra e a sequência apropriada. Confiabilidade dos dados. 
+---
 
-UDP : Envie datagram IPV4 e IPV6 sem garantias que o pcaote chegue. Voltado para velocidade - Voz, Jogos.
+## **Web Design e Acessibilidade**
+- **Web Design Responsivo:**
+  - **Responsivo:** Uso de CSS (Media Queries).
+  - **Adaptativo:** Renderização baseada no servidor.
+  - **Mobile-First:** Priorizar dispositivos móveis no design.
+  - **Breakpoints:** Padrões definidos, como os do Bootstrap e Material Design.
+- **SVG (Scalable Vector Graphics):** Imagens vetoriais escaláveis.
+- **Tema Escuro:**
+  - Reduz fadiga visual e afeta menos o sono.
+  - **CSS Media Query:** `prefers-color-scheme`.
+- **Animação Reduzida:**
+  - `@media (prefers-reduced-motion: reduce)`.
 
-3 rede
-4 enlace
-5 física
+---
 
-_____
-Frontend
+## **Boas Práticas**
+- **Semântica no HTML:** Melhorar acessibilidade e SEO.
+- **Atributos ARIA:** Tornar aplicações acessíveis.
+- **Shadow DOM:** Isolar componentes no DOM.
+- **Web Components:** Criar componentes reutilizáveis e independentes.
 
-Front-end não é designer; Front-end (HTML, CSS, Javascript)
-tags do HTML <html> <head> <title> <body>
-CSS - Estilo Visual; Responsiva; style.css
-Java Script: Interatividade com usuário
-Vue.js: framework front-end
+---
 
-Back-end
-
-Fica por trás. lógica de negócia. Conjunto de elementos: sistemas, banco de dados entre outros.
-PHp,PHYTON, RUBY, Node.js
-Banco de dados: MySQL e Postgre
-frameworks disponíveis.
-
-Tipos de Sistemas WEB 
-    
-    **SPA (Sigle Page Application): é um modelo de desenvolvimento. Única página web. O conteúdo todo. Mais rápida e Mais fluida.
-    AJAX: Chamada Assincrona
-    E-Commerce, Rede sociais, jogos online.
-    Redução da Carga do Servidor
-    Melhor escalabilidade e manutenibilidade
-    Maior interatividade e personalização
-    Benefícios: Velocidade.Melhor experiência. Desenvolvimento mais fácil. Arquitetura modular. Acesso off-line. Maior segurança. Facilidade de manutenção. 
-    1 paǵiana HTML e usa JavaScript e AJAX
-    Arquitetura: View; Modelo; Controlador; Serviços; Roteamento; Gerenciador de estado; Bibliotecas e frameworks;
-    Exemplo: GMAIL
-    
-    **MPA (Multi Page Application): cada página é carregada como uma página separada, com sua URL, e as ações do usuário geralmente exigem o carregamento de uma nova página. Várias páginas HTML independentes. 
-    Mecanimos de busca são mais amigáveis.
-    Manutenção mais fácil.
-    Rápido tempo de carregamento. Apenas o necessário.
-    Boa usabilidade.
-    Desvantagens: Transições mais lentas. Requisições de servidor. Dificuldade mem gerenciar o estado do aplicativo. 
-    Arquitetura: Cada página é carregada em resposta a uma requisição do cliente.
-    Exemplo: AMAZON
-
-    **PWA (Progressive Web APP): São aplicativos web que oferecem uma experiência de usuário semelhante à de um aplicativo móvel nativo mas que são executados em um navegador da web. Combinação entre um "site" e um aplicativo móvel.
-    Acessibilidade e facilidade de desenvolvimento
-    Pode ser encontrada em mecanismos de busca
-    URL
-    Aprimoramento progressivo
-    Enviar notificações
-    SER RESPONSIVA.. diferentes dispositivos.
-    Sempre HTTPS
-    Instalação fácil. não requer download 
-    Benefícios: Desenvolvimento mais rápido e fácil, custos reduzidos. Fácil manutenção. Multiplataforma. Melhor experiência do usuário. Fácil distribuição.
-    Service Workers: Scripts em segundo plano. 
-    Manifesto da Web em PWA é um arquivo JSON que contém informações sobre a aplicação web progressiva como: nome, ícone, cor de tema, orientação de tela, entre outras. É importante para que a PWA possa ser adicionada à tela inicial do dispositivo e se comportar de forma semelhante a um aplicativo nativo.
-    Exemplo: Twitter Lite; starbucks; 
-
-    //Projeto para WEB: Serve para ter um modelo e ganhar em qualidade.
-
-    TOPO da pirâmide (Usuário)
-    1) Projeto de interfaces
-    2) Projeto estético (ou de layout)
-    3) Projeto Conteúdo
-    4) Projeto de Arquitetura - Modelos
-    5) Projeto de Navegação
-    6) Projeto em nível de componentes
-    BASE da pirâmide (tecnologia)
-    
-   Exemplo prático: Projeto de mobilidade para desenvolvimento WEBAPPS
-    
-    Aplicativo de delivery de comida;
-
-Conceitos HTML
-
-Elementos, etiqueta (TAG) e atributos.
-
-Tag simples e Tag dupla;
-
-Acentos <meta charset="UTF-8"> dentro do HEAD
-
-Formulários <form>
-
-CSS
-JavaScript client side
-Manipulação do DOM; adicionar remover Formato de árvore. Pai, filhos e irmãos
-
-Aula 3 - Luiz Fernando Palanella Gonzalez.
-
-SPA-MPA (Single page ou Multi page)
-
-PWA - Aplicações web progressivas - Mais ferramentas. Mais recursos.
-    Tem que ser HTTPS;
-    Manifesto WEB - Arquivo - JSON   
-    Service Worker - Página Offline.
-
-Lighthouse - gerar relatório;;
-
-O tipo de usuário é variado. W3C (padrões) mantém o Web accessibility initiative *WAI*
-
-Web design responsivo; 
-    Responsivo = CSS - Media queries
-        Adaptativo = Serviodor
-
-Conteúdo é como água; tem que se adaptar;
-
-Mobile-First: em primeiro lugar o mobile;
-
-Break Point: Pontos de quebra 
-    Bootstrap  (6 níveis) px
-    material Desing (4 níveis)
-
-Mobile-first não é somente largura de tela. Tamanho de texto razoável. Layout usável;
-
-Cada FRAMEWORK faz da sua forma;
-
-SVG - Scalable Vector Graphics: Imagem vetorial (escalável)
-    O mesmo grupo que mantém especificaçẽs do HtmL, CSS e JavaScript, também define muitas outras
-    TAG SVG
-
-Tema Escuro
-    Fadiga visual
-    Afeta o sono - Luz azul
-    Minimalista e moderno
-    CSS Media query perfers-color-scheme 
-        light
-        dark
-
-Animação reduzida: Algumas pressoas preferem desativar as animações no sistema;
-    Media query @media(prefers-reduced-motion: reduce)
-
-Devemos desenvolver site acessível? Sim, pelo menos pensar; Observe o contraste de cor do seu site;
-
-Diversos detalhes devem ser evitados para não prejudicar o acesso a determinados tipos de pessoas;
-
-boa prática: semântica
-
-Componentes> Bootstrap, Material design 
-Atributos ARIA (Accessible Rich Internet Applications para ajudar)
-
-web Components: padrão W3C
-Shadow DOM: Permitem isolar o componente do resto da página.
-Classe: HTMLElement: pode gerar eventos.
-
-script date range!
-
+## **Ferramentas e Conceitos Adicionais**
+- **Lighthouse:** Geração de relatórios de desempenho e acessibilidade.
+- **Bootstrap e Material Design:** Componentes para design responsivo.
+- **Service Workers:** Scripts que permitem funcionalidade offline em PWAs.
+- **W3C e WAI:** Definem padrões para acessibilidade na web.
