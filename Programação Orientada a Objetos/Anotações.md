@@ -341,3 +341,54 @@ var pessoa = {
 
 - **Uso de Prefixos para Identificação**:
   - Ajuda a distinguir visibilidade ou uso específico de atributos e métodos.
+
+
+# Aula 3 - Edson Ifarraguirre Moreno
+
+## Paradigma de Programação
+- **Linguagens Suportadas**: JavaScript, Java, C#, Python
+- **Pilares**:
+  - **Abstração**
+  - **Encapsulamento**
+  - **Herança**
+  - **Polimorfismo**
+- Largamente empregado na indústria.
+
+## Declaração de Variáveis em JavaScript
+
+### `var`
+- Declara uma variável com **escopo de função**.
+
+### `let`
+- Declara uma variável com **escopo de bloco** ou **variável local**.
+
+### `const`
+- Declara uma **constante** com **escopo de bloco**.
+
+## Objetos
+
+### Intrínsecos ao JavaScript:
+- `Array`
+- `Boolean`
+- `Date`
+- `Math`
+- `Number`
+- `String`
+- `RegExp`
+- `Global`
+
+## Tipos de Dados
+- `Undefined`
+- `Null`
+- `Boolean`
+- `String`
+- `Number`
+- `Object`
+- `Symbol`
+
+Arrays - Objeto do tipo Array
+    Permite o armazenamento de uma coleção de múltiplos itens
+    São espaços;
+
+let a = []
+let a ["A", "B", "C"]
