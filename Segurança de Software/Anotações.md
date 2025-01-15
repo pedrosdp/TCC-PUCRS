@@ -1,92 +1,173 @@
-Segurança de Software
+# Segurança de Software
 
-Aula 1 e 2 - Moises Brandalise
+## Aula 1 e 2 - Moises Brandalise
 
-Por que a segurança é importante no desenvolvimento de software...
+### Por que a segurança é importante no desenvolvimento de software?
 
-**Migração dos serviços em núvem
+- **Migração dos serviços em nuvem**
 
-**SQL INJECTION - Técnica usada para explorar vulnerabilidades em sistemas que utilizam a linguagem SQL para se comunicar com um banco de dados, que consiste na inserção de códigos maliciosos em campos de entrada de formulários de uma aplicação web.
+### SQL Injection
+- Técnica usada para explorar vulnerabilidades em sistemas que utilizam a linguagem SQL para se comunicar com um banco de dados.
+- Consiste na inserção de códigos maliciosos em campos de entrada de formulários de uma aplicação web.
 
-**Valor do Dado (LGPD)
+### Valor do Dado (LGPD)
 
-IBM publica Ramos da indústria ataque (MANUFAtURa é o Maior)
+- A **IBM** publicou um relatório mostrando que o setor de **manufatura** é o mais atacado.
 
-KASPERSKY - Centro de controle - Detecções por segundo. Brasil é 3º mais tentativa de ataques.
-Sendo o primeiro o ataque de força bruta no RDP.
+### Kaspersky
+- Dados sobre detecção:
+  - Centro de controle - Detecções por segundo.
+  - O **Brasil** é o **3º país com mais tentativas de ataques**, sendo o **primeiro** o ataque de força bruta no **RDP**.
 
-Principais riscos de segurança.
-1) Ataques Hackers
-2) Vazamento de dados
-3) Ataques de Phishing (Utiliza de engenharia social)
-4) Malware - Infecta app
+---
 
-Principais Organizações -  Recursos e orientações
+## Principais Riscos de Segurança
 
-1) ISO (Organização Internacional de Normalização) - Padronização de normas 27001/27002/27034
-2) W3C - Consórcio WWW - html, css, protocolo https;
-3) OWASP - Voluntários - 10 principais vulnerabilidades; Melhores práticas;
-4) NIST - Agência Americana para desenvolvimento seguro. Cybersegurança. Empresas que trablham com o governo dos EUA são obrigadas a cumprir os rigoros padrôes de segurança;
-5) IETF - Padroniza padrões de criptografia. TLS e IpSeC.
-6) PCI SSC - Padrão para empresas.
+1. **Ataques Hackers**
+2. **Vazamento de dados**
+3. **Ataques de Phishing**
+   - Utilizam **engenharia social**.
+4. **Malware**
+   - Infecta aplicativos.
 
-Criptografia: É importante para garantir a privacidade e a integridade de informações.
+---
 
-Quando fala em criptografia, a gente faa em transformar. 
+## Principais Organizações - Recursos e Orientações
 
-Chave Criptográficas: A criptográficas usa chaves para codificar e decodificar informações. Uma chave é um valor secreto que é usado para transformar a informação.
+1. **ISO (Organização Internacional de Normalização)**
+   - Padronização de normas: **27001**, **27002**, **27034**.
+   
+2. **W3C (Consórcio WWW)**
+   - Padrões para **HTML**, **CSS**, e o protocolo **HTTPS**.
 
-Cifras Simétricas: Mesma chave
-Cifras assimétricas: par de chaves diferentes (Pública e Privada)
+3. **OWASP**
+   - Organização de voluntários.
+   - Fornece:
+     - **10 principais vulnerabilidades**.
+     - **Melhores práticas de segurança**.
 
-Atenção: Não tentem inventar uma criptografia, utilizem os algoritmos que já temos à disposição, em suas últimas versões.
+4. **NIST (National Institute of Standards and Technology)**
+   - Agência americana voltada ao desenvolvimento seguro.
+   - Pioneira em **cibersegurança**.
+   - Empresas que trabalham com o governo dos EUA devem cumprir rigorosos padrões de segurança.
 
-Simétrica: Mesma chave. Velocidade (Menos recurso computacional);Segurança;Financeiras e comunicações
+5. **IETF (Internet Engineering Task Force)**
+   - Padronização de **criptografia**.
+   - Trabalha com protocolos como **TLS** e **IPSec**.
 
-Assimétrica: Par de chaves. Chave pública distribuída livremente. Chave privada mantida em segredo.
-Certificado digital;
-Assinatura digital; Autencidade e Integridade.
+6. **PCI SSC (Payment Card Industry Security Standards Council)**
+   - Define padrões de segurança para empresas que processam pagamentos.
 
-HASH: Uma forma de criptografia que usa um algoritmo matemático para transformar uma mensagem em uma string de caracteres fixa.
-Em jogos, as funções hash são usadas para gerar números aleatórios para personagens, objetos e eventos. 
-Tecnologias blockchain
-AES e SHA256
 
-Implementação correta do algoritmos de criptografia. 
--Dados em repouso (local)
--Dados em movimento
-Bitlocker da Microsoft (Dados da máquina criptografados)
-VPN (canal seguro de comunicação)
+# Criptografia
 
-Cofres de senha: software ou hardware; 
-Facilita a gestão do ciclo de vida.
-Exemplo: Vault, Azure, AWS, etc
+## Definição
+- É importante para garantir a **privacidade** e a **integridade** das informações.
+- **Criptografia** transforma informações para protegê-las.
 
-Prevenção de ataques
--Salting> técnica de criptografia usada para proteger senhas em banco de dados, que adiciona um valor único e secreto, conhecido como salt, a cada senha antes de criptografá-la e armazena-la˜
--Hashing> procsso matemático que converte um bloco de dados em um valor de comprimento fixo.
+---
 
-Teste e Auditoria: Revisão de código. Conflitos. 
-Exemplo: Ao escrever código (1ª linha) pode-se ter o papel de uma empresa (2ª linha auxiliando) e uma auditoria (3ª linha testando).
+## Chaves Criptográficas
+- A criptografia utiliza **chaves** para codificar e decodificar informações.
+- Uma **chave** é um valor secreto usado para transformar a informação.
 
-Padrões de criptografia
-AES - Advanced Encryption Standard)
-RSA - Rivest-Shamir-Adleman
-SHA - Secure Hash Algorithm
+---
 
-Protocolos de Comunicação SEGURA
-    Modelos Referencial OSI
-Conjunto de regras e procedimentos
-É um modelo teórico de rede que define sete camadas diferentes que descrevem como os dispositivos de rede devem se comunicar entre si.
+## Tipos de Cifras
 
-7 camadas
-Aplicação - Interfaces com Aplicativos
-Apresentação - Formatos/Criptografia
-Sessão - Controle de Sessões entre Aplicativos
-Transporte - Conexão entre host/Portas
-Rede - Endereço lógico/ Roteadores
-Enlace - Endereço físico/ Pontes e Switches
-Físico - Hardware-Sinal Elétrico
+### Cifras Simétricas
+- Utilizam a **mesma chave** para codificar e decodificar.
+- **Vantagens:**
+  - Velocidade (consomem menos recursos computacionais).
+  - Boa para segurança em comunicações e aplicações financeiras.
 
-LIBSIGNAL - Criptografia de ponta a ponta;
+### Cifras Assimétricas
+- Utilizam um **par de chaves diferentes**:
+  - **Chave Pública:** Pode ser distribuída livremente.
+  - **Chave Privada:** Deve ser mantida em segredo.
+- **Aplicações:**
+  - Certificado digital.
+  - Assinatura digital.
+  - Garantia de autenticidade e integridade.
+
+---
+
+## HASH
+- Um método de criptografia que usa um algoritmo matemático para transformar uma mensagem em uma string de caracteres fixa.
+- **Aplicações:**
+  - Em jogos: Geração de números aleatórios para personagens, objetos e eventos.
+  - Tecnologias **Blockchain**.
+- Exemplos: **AES** e **SHA256**.
+
+---
+
+## Implementação Correta de Algoritmos de Criptografia
+1. **Dados em repouso**: Proteção de dados locais (ex.: BitLocker da Microsoft).
+2. **Dados em movimento**: Comunicação segura (ex.: VPN).
+
+---
+
+## Cofres de Senhas
+- Ferramentas para armazenar senhas de forma segura.
+- Podem ser softwares ou hardwares.
+- **Exemplos:**
+  - Vault, Azure, AWS, etc.
+- Facilitam a gestão do ciclo de vida das senhas.
+
+---
+
+## Prevenção de Ataques
+
+### Salting
+- Técnica usada para proteger senhas em bancos de dados.
+- Adiciona um valor único e secreto (salt) a cada senha antes de criptografá-la.
+
+### Hashing
+- Processo matemático que converte um bloco de dados em um valor de comprimento fixo.
+
+
+# Teste e Auditoria
+
+- **Revisão de Código**: Identificação e correção de erros ou conflitos no código.
+- Exemplo de papéis:
+  1. **Escrita do código**: Desenvolvedor (1ª linha).
+  2. **Auxílio**: Revisão ou suporte de equipe (2ª linha).
+  3. **Auditoria**: Testes para validação (3ª linha).
+
+---
+
+## Padrões de Criptografia
+
+1. **AES** (Advanced Encryption Standard)
+2. **RSA** (Rivest-Shamir-Adleman)
+3. **SHA** (Secure Hash Algorithm)
+
+---
+
+## Protocolos de Comunicação Segura
+
+### Modelo Referencial OSI
+- Conjunto de regras e procedimentos para comunicação entre dispositivos de rede.
+- É um modelo teórico que define **sete camadas**, descrevendo como os dispositivos devem interagir.
+
+### As 7 Camadas do Modelo OSI
+
+1. **Aplicação**: Interfaces com aplicativos.
+2. **Apresentação**: Formatação de dados e criptografia.
+3. **Sessão**: Controle de sessões entre aplicativos.
+4. **Transporte**: Gerenciamento de conexões entre hosts/portas.
+5. **Rede**: Gerenciamento de endereços lógicos e roteadores.
+6. **Enlace**: Gerenciamento de endereços físicos, pontes e switches.
+7. **Físico**: Hardware e sinais elétricos.
+
+---
+
+## LibSignal
+- Biblioteca usada para implementar **criptografia de ponta a ponta**.
+- Amplamente utilizada em aplicativos de mensagens seguras.
+
+Segurança no DESENVOLVIMENTO DE SOFTWARE
+
+
+
 
