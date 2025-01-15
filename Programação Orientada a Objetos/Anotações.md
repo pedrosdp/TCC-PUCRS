@@ -440,3 +440,68 @@ console.log(soma(2, 3)); // Output: 5
 - **Array.map()**
 - **Juntando Operações** - `Array.filter()`, `Array.map()`, `Array.forEach()`
 
+# Trabalho com Classes
+
+## Modularização
+- É extremamente conveniente dividir e organizar código em módulos.
+
+## Padrões para Implementação de Módulos
+- **CommonJS**
+- **Asynchronous Module Definition**
+- **Universal Module Definition**
+- **ECMAScript 6 Modules**
+- **Outros**
+
+### CommonJS
+- Padrão utilizado por um grande número de pacotes disponibilizados via **nPM**.
+- Utiliza `exports` e `module.exports`.
+
+### ES6
+- Padrão nativo do JavaScript.
+- Utiliza `export`.
+- Algumas vantagens em relação ao CommonJS:
+  - Melhor suporte nativo pelos navegadores.
+  - Sintaxe mais limpa e legível.
+
+### Atributo privado, getter e setter;
+
+### Classe Herdada CarrosComPlaca, Composição com a classe Locadora.
+
+# Desestruturação
+- A ideia é **desempacotar**.
+
+# JSON
+- **Formato textual** para serialização de dados.
+
+# Exceções
+- É um recurso muito interessante.
+- Utilizado quando uma **função encontra um erro**.
+- **Try...catch...finally**:
+  - **try**: Bloco onde o código é executado.
+  - **catch**: Bloco onde o erro é tratado, caso ocorra.
+  - **finally**: Bloco opcional, executado sempre, independentemente de um erro ter ocorrido ou não.
+
+# Funções Assíncronas
+
+- A API de programação do JavaScript possui muitas funções de execução assíncrona.
+- Por exemplo, o pacote **"fs"** do **Node.js** possui muitas funções.
+
+## Callbacks
+- Funções que são chamadas quando uma operação assíncrona é concluída.
+
+## Promises
+- Utilizadas para controle do fluxo de execução.
+- Representam o **resultado final** ou uma **falha** de uma operação assíncrona.
+
+# Async/Await
+
+- **Async/Await** é uma abordagem simplificada para trabalhar com operações assíncronas em JavaScript.
+- Introduzido no ECMAScript 2017 (ES8).
+
+## Principais Características
+- **`async`**:
+  - Define uma função como assíncrona.
+  - Sempre retorna uma **Promise**.
+- **`await`**:
+  - Pausa a execução da função até que a **Promise** seja resolvida ou rejeitada.
+  - Só pode ser usado dentro de funções declaradas com `async`.
