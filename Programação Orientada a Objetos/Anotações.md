@@ -70,6 +70,7 @@ var pessoa = {
         console.log("Olá");
     }
 };
+```
 
 # Aula 1 e 2 - Professor Alessandro Valério (Continuação)
 
