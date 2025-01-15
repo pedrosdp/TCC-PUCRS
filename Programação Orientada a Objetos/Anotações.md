@@ -71,9 +71,6 @@ var pessoa = {
     }
 };
 ```
-
-# Aula 1 e 2 - Professor Alessandro Valério (Continuação)
-
 ## Atributos ou Propriedades
 
 - **Definição**:
