@@ -392,3 +392,50 @@ Arrays - Objeto do tipo Array
 
 let a = []
 let a ["A", "B", "C"]
+
+# Funções em JavaScript
+
+## Definição
+- Criadas com a palavra reservada **`function`**.
+- Podem possuir um **nome**, **argumentos** e **retornar valores**.
+
+---
+
+## Métodos de Array
+- Introduzidos no ECMAScript 5, como os métodos **`map`** e **`reduce`**.
+
+---
+
+## Funções de Fechamento (Closure)
+- Uma closure ocorre quando uma função "lembra" do escopo em que foi criada, mesmo após o escopo original não estar mais ativo.
+
+### Exemplo:
+```javascript
+function criaContador() {
+    let contador = 0;
+    return function () {
+        contador++;
+        return contador;
+    };
+}
+
+const contador = criaContador();
+console.log(contador()); // Output: 1
+console.log(contador()); // Output: 2
+
+## Funções de Seta (Arrow Functions)
+
+### Exemplo:
+
+const soma = (a, b) => a + b;
+console.log(soma(2, 3)); // Output: 5
+
+# Funções de Alta Ordem
+
+- **Array.some()**
+- **Array.filter()**
+- **Array.forEach()**
+- **Array.reduce()**
+- **Array.map()**
+- **Juntando Operações** - `Array.filter()`, `Array.map()`, `Array.forEach()`
+
