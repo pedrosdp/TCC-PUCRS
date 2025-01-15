@@ -420,13 +420,16 @@ function criaContador() {
 const contador = criaContador();
 console.log(contador()); // Output: 1
 console.log(contador()); // Output: 2
+```
 
 ## Funções de Seta (Arrow Functions)
 
 ### Exemplo:
+```javascript
 
 const soma = (a, b) => a + b;
 console.log(soma(2, 3)); // Output: 5
+```
 
 # Funções de Alta Ordem
 
