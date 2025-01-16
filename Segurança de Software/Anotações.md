@@ -166,8 +166,218 @@
 - Biblioteca usada para implementar **criptografia de ponta a ponta**.
 - Amplamente utilizada em aplicativos de mensagens seguras.
 
-Segurança no DESENVOLVIMENTO DE SOFTWARE
+# Segurança no Desenvolvimento de Software
 
+## Identificação dos Riscos de Segurança e Vulnerabilidades
+- Analisar as ameaças
+- Identificar ativos
+- Avaliar as vulnerabilidades
+- Avaliar o impacto
+- Classificar os riscos
+- Plano de mitigação
+- Monitoramento
 
+## Gerenciamento de Vulnerabilidades e Riscos
+- Responsável
+- Testes regulares
+- Acompanhar as mudanças
+- Treinamento
 
+## Integração da Segurança no Processo
+- **DEVSECOPS**: Desde o início do projeto
+- Utilizar ferramentas:
+  - **Snyk**: Ferramenta de segurança que ajuda a proteger aplicativos e bibliotecas de terceiros contra vulnerabilidades conhecidas.
+  - **Waspzap**: Software que oferece uma plataforma de comunicação segura e criptografada para smartphones Android. É um fork do aplicativo de mensagens instantâneas Signal.
+- Conjunto de diretrizes a serem seguidas
 
+## Treinamento e Conscientização dos Desenvolvedores
+- Treinamentos
+- Materiais
+- Revisão conjunta de código
+- Checklist:
+  - Validação de entrada
+  - Gerenciamento de sessão
+  - Proteção contra injeção de código
+  - Gerenciamento de senhas
+  - Configuração do servidor
+  - Controle de acesso
+  - Proteção de dados
+- Recompensas
+
+## Bughunt
+- Recompensas para vulnerabilidades
+
+## Ciclo de Vida
+1. Identificar ativos
+2. Análise de riscos
+3. Requisitos de segurança
+4. Políticas de segurança
+5. Testes de segurança
+6. Revisão
+
+## Projeto e Implementação Seguros
+- **Spoofing**: Falsificação de identidade
+- **Tampering**: Violação ou adulteração
+- **Repudiation**: Negação de ter realizado uma ação
+- **Information Disclosure**: Divulgação ou vazamento de informações
+- **Denial of Service**: Negação de serviço
+- **Elevation of Privilege**: Aumento indevido de privilégios
+
+## Testes de Segurança e Avaliação
+- Testes de invasão
+- Análise de vulnerabilidades
+
+## Implantação e Manutenção Seguras
+- Configuração de servidores
+- Autenticação e autorização
+- Monitoramento
+
+## Análise de Código Estática e Dinâmica
+- **Estática (SAST)**: Análise do código fonte
+- **Dinâmica (DAST)**: Análise durante a execução da aplicação
+- **Soluções Estáticas**: SonarQube, Veracode, ESLint, PMD, FindBugs
+- **Soluções Dinâmicas**: Burp Suite, OWASP ZAP, Acunetix, Qualys, IBM AppScan
+
+## Teste de Invasão e Avaliação de Vulnerabilidades
+- **Tipos**:
+  - Blackbox
+  - Whitebox
+- **Escopo**:
+  - Vulnerabilidades
+  - Testes SQL
+  - Outros
+  - Documentação
+
+## Gerenciamento de Configuração Segura
+- Com o **Ansible**, é possível realizar a instalação de patches de segurança em todos os servidores em execução.
+- **Ferramentas**: Ansible, Chef, Puppet
+
+### Ansible
+1. Configuração e implantação
+2. Teste de segurança automatizado
+3. Gerenciamento de vulnerabilidades
+4. Monitoramento de segurança
+5. Auditoria e conformidade
+
+## Autenticação e Autorização Seguras
+- Garantir que apenas usuários autorizados tenham acesso à aplicação e aos dados sensíveis
+- **Protocolos**:
+  - OAuth
+  - OpenID Connect
+  - JWT
+- **SSO** (Single Sign-On)
+- Multifator
+- Permissões:
+  - Role-Based
+  - Rule-Based
+- Monitoramento
+- Atualização
+- **SALT** armazenado em outro local (outra tabela)
+
+## Criptografia e Gerenciamento de Chaves
+- Cofres:
+  - HashiCorp Vault
+  - Amazon Web Services (AWS) Key Management Service (KMS)
+  - Microsoft Azure Key Vault
+  - Google Cloud Key Management Service (KMS)
+
+# Monitoramento e Detecção de Incidentes
+- **Planejamento**
+- **Coleta de Dados**
+- **Correlação**
+- **Notificação**
+- **Investigar e Responder**
+
+---
+
+# Problemas Comuns de Segurança Indicados pela OWASP e TOP 10
+
+## O que é OWASP
+- Organização que mantém uma lista atualizada de problemas de segurança em aplicativos da web.
+- Baseada em **dados reais** e nas **25 fraquezas do CWE**.
+
+### Principais Problemas de Segurança:
+1. Quebra de controle de acesso
+2. Falhas criptográficas
+3. Injeção (ex.: injeção de código malicioso, injeção SQL)
+4. Design inseguro
+5. Configuração de segurança incorreta
+6. Componentes vulneráveis e desatualizados
+7. Falhas na identificação e autenticação
+8. Falhas na integridade de software e dados
+9. Falhas no registro e monitoramento
+10. Falsificação de solicitação do lado servidor (SSRF)
+
+---
+
+# Autenticação e Autorização
+
+## Autenticação
+- Processo de verificar a identidade de um usuário ou sistema.
+- **Métodos de Autenticação**:
+  - Senhas
+  - Smart cards e outros dispositivos
+  - Biometria
+
+## Autorização
+- Conceder ou negar permissões de acesso a recursos.
+- **Controle de Acesso**:
+  - Granularidade
+  - Baseada em funções (Role-Based) ou regras (Rule-Based)
+  - Permissões específicas
+
+---
+
+## Métodos de Autenticação
+- **Algo que o usuário sabe** (ex.: senha)
+- **Algo que o usuário possui** (ex.: smart cards)
+- **Algo que o usuário é** (ex.: biometria)
+
+### Outras Abordagens:
+- **Multifator Adaptativo**
+- **Passwordless** (sem senha)
+
+---
+
+# Implementação
+- **Sistemas de Gerenciamento de Usuários**
+- **Controle de Acessos**
+
+---
+
+## Protocolos e Ferramentas
+- **Protocolo LDAP**: Gerenciamento de diretórios e serviços de diretório.
+- **WSO2**: Plataforma para gerenciamento de identidade e autenticação.
+
+# Aula 3 - Avelino Francisco Zorzo
+
+## Contexto Atual e Segurança
+
+### Criptografia
+- **Defesa - Ataque - Teoria - Prática**
+- "Na prática, eu tenho segurança se for bem feito."  
+  — *Avelino Francisco Zorzo*
+
+---
+
+## Dois Problemas Práticos
+1. **Engenharia Social**:  
+   - Ataque simples utilizando WhatsApp.
+2. **Heartbleed**:  
+   - Vulnerabilidade no HTTPS baseada na suposição de que todos seriam honestos.
+
+---
+
+## Segurança - Metas
+1. **Privacidade**  
+   Garantir que os dados sejam acessíveis apenas a quem tem permissão.
+2. **Autenticação**  
+   Verificar a identidade de usuários ou sistemas.
+3. **Integridade**  
+   Garantir que os dados não sejam alterados ou corrompidos durante a transmissão.
+4. **Não-repúdio**  
+   Garantir que as ações ou comunicações não possam ser negadas posteriormente.
+
+Criptografia como funciona
+
+  
