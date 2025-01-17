@@ -378,6 +378,149 @@
 4. **Não-repúdio**  
    Garantir que as ações ou comunicações não possam ser negadas posteriormente.
 
-Criptografia como funciona
+# Criptografia - Como Funciona
 
-  
+## Aritmética Modular
+- Parte da teoria dos números que lida com números inteiros e suas propriedades em relação a um número fixo chamado **módulo**.
+
+---
+
+## Criptografia Simétrica
+- **Cifra de Blocos**:  
+  - Divide os dados em **blocos de bits**.
+  - **Exemplo**: AES com **n = 256 bits**.
+
+---
+
+## Conceitos Importantes
+1. **Paradoxo de Aniversário**:  
+   - Fenômeno probabilístico que pode impactar a segurança em sistemas criptográficos.
+2. A segurança deve estar na **chave** e não no **algoritmo**.
+3. Um algoritmo de cifragem deve oferecer:
+   - **Confusão**: Tornar a relação entre a chave e o texto cifrado o mais complexa possível.
+   - **Difusão**: Espalhar a influência de cada bit da chave por todo o texto cifrado.
+
+---
+
+## Algoritmos e Padrões
+- **Cifra de Rail**: Método clássico de criptografia.
+- **AES (Advanced Encryption Standard)**: Padrão avançado de criptografia para cifra de blocos.
+
+# Modos de Operação em Criptografia
+
+## 1. **Electronic Codebook (ECB)**
+- Modo de operação mais simples.
+- Características:
+  - Cada bloco de texto claro é cifrado de forma independente usando a mesma chave.
+  - **Limitação**: Não oferece alta segurança, pois blocos idênticos de texto claro geram blocos idênticos de texto cifrado.
+
+---
+
+## 2. **Cipher Block Chaining (CBC)**
+- Um dos modos mais usados.
+- Características:
+  - Utiliza um **Vetor de Inicialização (IV)** para cifrar o primeiro bloco.
+  - Cada bloco de texto claro é combinado (via XOR) com o bloco cifrado anterior antes de ser cifrado.
+  - Oferece maior segurança em relação ao ECB.
+
+---
+
+## 3. **Cipher Feedback (CFB)**
+- Modo que permite cifrar blocos menores que o tamanho padrão.
+- Características:
+  - Usa um **Vetor de Inicialização (IV)**.
+  - O texto cifrado anterior é usado como entrada para cifrar o próximo bloco.
+
+---
+
+## 4. **Output Feedback (OFB)**
+- Semelhante ao CFB, mas independente do texto cifrado.
+- Características:
+  - Gera um fluxo pseudoaleatório baseado no IV e na chave.
+  - Usado principalmente em aplicações onde erros de transmissão precisam ser minimizados.
+
+---
+
+## 5. **Counter (CTR)**
+- Modo baseado em um contador.
+- Características:
+  - Cada bloco é cifrado combinando (via XOR) o texto claro com a saída da cifra aplicada ao contador.
+  - O contador é incrementado para cada bloco.
+  - Ideal para paralelização e processamento de alto desempenho.
+
+# Conceitos Complementares
+
+## Padding
+- Processo de **preenchimento de bits** em blocos de dados quando faltam bits para completar o tamanho necessário.
+- Utilizado em cifragem de blocos para garantir que todos os blocos tenham o mesmo tamanho.
+
+---
+
+## Aritmética Modular
+- Conceito matemático que trabalha com inteiros em relação a um número fixo chamado de **módulo**.
+- Representação:  
+  - Dados inteiros em um intervalo de **0 até (n - 1)**, onde **n** é o módulo.
+  - **Exemplo**: Para **n = 5**, os valores possíveis são **0, 1, 2, 3, 4**.
+
+# Criptografia e Troca de Chaves
+
+## WhatsApp - Curva Elíptica
+- O WhatsApp utiliza **criptografia de curva elíptica** como parte de sua segurança para garantir comunicações privadas entre os usuários.
+- **Curvas elípticas** são uma forma eficiente de criptografia assimétrica, oferecendo a mesma segurança que outros algoritmos, como RSA, mas com chaves menores.
+
+---
+
+## Troca de Chave
+
+### RSA
+- **RSA** (Rivest-Shamir-Adleman) é um algoritmo de **criptografia assimétrica** usado para a troca segura de chaves.
+- Funciona com **duas chaves**: uma pública (para cifragem) e uma privada (para decifragem).
+- A segurança do RSA é baseada na dificuldade de fatorar números grandes.
+
+# Exemplo Prático - WhatsApp
+
+## Protocolo Aberto
+- O WhatsApp utiliza o **Signal Protocol** para garantir a segurança de suas comunicações.
+
+---
+
+## Funcionamento do Signal Protocol
+O protocolo usa uma combinação de algoritmos e técnicas para criptografia ponta a ponta. Entre os principais componentes estão:
+
+### **ECDH (Elliptic Curve Diffie-Hellman)**
+- Baseado em **curvas elípticas**.
+- Permite a troca de chaves seguras através da troca de **pontos** em uma curva elíptica.
+
+---
+
+### Chaves Utilizadas
+1. **One-Time Pre Key**
+   - Gerada para ser usada apenas uma vez em uma troca de mensagens.
+   - Auxilia na inicialização da comunicação segura.
+2. **Identity Key Pair**
+   - Um par de chaves **pública** e **privada** permanente para identificar os usuários.
+3. **Signed Pre Key**
+   - Uma chave pública assinada pela **Identity Key Pair**.
+   - Garante que as comunicações iniciais sejam confiáveis e seguras.
+
+   ### **Root Key**
+- Base da hierarquia de chaves.
+- Gerada durante a inicialização da troca de mensagens entre dois usuários.
+- Atualizada à medida que novas sessões são estabelecidas.
+- Garante a segurança da derivação de outras chaves.
+
+---
+
+### **Chain Key**
+- Derivada a partir da **Root Key**.
+- Usada para gerar as **Message Keys**.
+- Atualizada a cada mensagem enviada ou recebida, garantindo:
+  - **Forward Secrecy**: As mensagens passadas permanecem seguras mesmo se uma chave futura for comprometida.
+
+---
+
+### **Message Key**
+- Derivada da **Chain Key**.
+- Chave de curto prazo utilizada para criptografar e decifrar mensagens individuais.
+- Diferente para cada mensagem, garantindo:
+  - **Confidencialidade** e **Integridade** em cada troca de mensagem.
