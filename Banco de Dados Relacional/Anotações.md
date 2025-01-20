@@ -185,3 +185,5 @@ Mapeamento de objeto relacional - ORM
 Apenas 1 forma de manipular
 ORM no Python
 
+Consultando dados no Banco de dados = Querying DATA;
+
