@@ -327,5 +327,8 @@ Indexação
    Pesquisa Binária
 
 Índice - Tabela a parte (rowid)
+   CREATE INDEX
 
+Sequence
+   CREATE SEQUENCE seq_titulacoes START WITH 6
 
