@@ -171,19 +171,161 @@ Embora sejam opcionais, são **150% recomendadas**:
 - **NOT NULL**: não permite valor nulo
 - **UNIQUE**: valor exclusivo (sem repetição na coluna)
 
-Chave primária = é comum que seu modelo de dados possua chaves primárias em TODAS as tabelas. É uma boa prática, para garantir integridade de dados.
+## Chave Primária
+É comum que seu modelo de dados possua **chaves primárias** em **TODAS** as tabelas. Esta é uma boa prática para garantir a integridade dos dados.
 
-Chave estrangeira = serve para fazer a ligação entre as entidades ou entre as tabelas, elas implementam as referências.
+## Chave Estrangeira
+A **chave estrangeira** serve para fazer a ligação entre as entidades ou entre as tabelas, implementando as referências.
 
-Index - Velocidade no acesso às informações. Agilizar a recuperação de registros durante as consultas a dados.
+## Index
+Os **índices** proporcionam velocidade no acesso às informações, agilizando a recuperação de registros durante as consultas aos dados.
 
-Modelo Lógico
-    evolução do conceitual
-    desenho de fato
+---
 
-Mapeamento de objeto relacional - ORM
-Apenas 1 forma de manipular
-ORM no Python
+## Modelo Lógico
+O modelo lógico é uma evolução do modelo conceitual e representa o **desenho de fato** do banco de dados.
 
-Consultando dados no Banco de dados = Querying DATA;
+---
+
+## Mapeamento de Objeto Relacional (ORM)
+- Permite apenas uma forma de manipulação dos dados.
+- Exemplo: Uso de ORM no **Python**.
+
+---
+
+## Consultando Dados no Banco de Dados
+- **Querying DATA**: Refere-se à ação de realizar consultas no banco de dados.
+
+# Aula 3 - Azriel Majdenbaum
+
+## Características do SQL
+- **Case insensitive**: O SQL não faz distinção entre maiúsculas e minúsculas.
+- **Formatos flexíveis**: Pode ser escrito em uma única linha ou quebrado em várias.
+
+---
+
+## Principais Comandos SQL
+
+### Criar Tabelas
+```sql
+CREATE TABLE nome_da_tabela (
+    coluna1 tipo_de_dado,
+    coluna2 tipo_de_dado
+);
+
+
+INSERT INTO nome_da_tabela (coluna1, coluna2)
+VALUES (valor1, valor2);
+
+
+consultar
+SELECT *
+FROM nome_da_tabela
+WHERE condição;
+
+Exemplo de comando para selecionar a placa, o ano e o modelo de veículos anteriores ao ano 2022
+
+SELECT placa, ano, modelo
+FROM VEICULOS
+WHERE ano < 2022;
+
+
+Atualizar
+UPDATE nome_da_tabela
+SET coluna = novo_valor
+WHERE condição;
+
+
+Exemplo: Experimente escrever o campo UPDATE para somar 100km a todos os veículos cjos anos estão entre 2015 e 2021 (inclusive)
+
+UPDATE VEICULOS 
+SET km = km + 100
+WHERE (ano >= 2015) and (ano <=2021);
+
+Excluir
+DELETE FROM nome_da_tabela
+WHERE condição;
+
+Ordenar
+SELECT *
+FROM nome_da_tabela
+ORDER BY coluna [ASC | DESC];
+
+
+Contar quantos registros tem
+SELECT COUNT (*)
+FROM ...
+
+Exercício: Quantos veículos da marca FORD estão cadastrados no banco de dados?
+
+SELECT COUNT(*)
+FROM VEICULOS
+WHERE marca = 'FORD';
+
+
+Mostar uma unidade
+SELECT DISTINCT marca
+
+Valores Nulo
+      NOT NULL
+      NULL
+
+% substitui qualquer quantidade de caracteres
+
+WHERE NOME LIKE '%CARLOS%'
+
+_ substitui exatamente um caracter
+
+IN valor numa lista
+
+Removendo e adicionando novas colunas em tabelas
+
+Alter Table
+drop column
+
+alter table 
+add
+
+DATAS
+   datanasc
+
+"pode fazer aritmética com datas" Exemplo:
+
+SYSDATE + 30
+
+# INTEGRIDADE DE ENTIDADE
+
+- **CHAVE PRIMÁRIA (pk):** Atributo que não vai se repetir nunca.
+- **UNIQUE (AKs):** Garante que os valores de uma coluna sejam únicos.
+
+# INTEGRIDADE DE DOMÍNIO
+
+- **Restringir os valores:** Define os valores permitidos em uma coluna.
+
+# RESTRIÇÃO DE INTEGRIDADE REFERENCIAL
+
+- **Vincular dados de uma tabela a outra:** Garante a consistência entre as tabelas relacionadas.
+
+# JUNÇÕES E ENTRELAÇAMENTO
+
+- **JOIN:**
+  - `INNER JOIN`
+  - `OUTER JOIN`
+
+FUNÇÕES
+   Sobre Linhas.
+   Sobre Conjuntos de linhas.
+
+Group by; Agrupamento de resultados
+Having (condições)
+
+Subconsultas; 2 consultas em 1 só;
+
+Indexação
+   Select nome, uf FROM CIDADES;
+   Ordenação de dados.
+   Pesquisa Binária
+
+Índice - Tabela a parte (rowid)
+
 
