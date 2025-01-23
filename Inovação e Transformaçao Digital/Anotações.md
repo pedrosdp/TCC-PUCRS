@@ -178,9 +178,41 @@ Permite enxergar:
   - Fomentam a inovação e a troca de conhecimento entre empresas, universidades e governo.
   - Concentram recursos, talentos e infraestrutura para acelerar o desenvolvimento tecnológico e econômico.
 
-Aula 3 - Gabriela Cardozo Ferreira
+# Aula 3 - Gabriela Cardozo Ferreira
 
-Figital não é híbrido;
+## Figital
 
+- **Figital não é híbrido**:
+  - O termo "figital" refere-se à fusão do **físico** com o **digital**, criando experiências integradas.
+  - Difere do conceito de "híbrido", que é a coexistência separada do físico e digital.
+
+---
+
+## O que é Inovação?
+
+- **Definição**:
+  - Algo **novo** ou **significativamente melhorado**, com **impacto positivo** em diversos âmbitos.
+  - Envolve **transformação** em produtos, serviços, processos ou modelos de negócios, trazendo melhorias e atendendo novas demandas.
+
+### Diferença entre Invenção e Inovação
+- **Invenção**:
+  - Criação de algo **inédito** ou **original**, sem necessariamente aplicação prática ou impacto direto.
+  - Exemplo: A criação de uma tecnologia ou ferramenta nova.
+- **Inovação**:
+  - Transformação de uma invenção ou ideia em algo **viável**, **praticável** e **desejável**, gerando impacto e valor.
+
+---
+
+### Os Três Pilares da Inovação
+
+1. **Viável**:
+   - Tecnicamente possível de ser implementada.
+   - Soluções que podem ser desenvolvidas com os recursos e tecnologias disponíveis.
+2. **Praticável**:
+   - Pode ser aplicada e utilizada de forma eficiente.
+   - Deve ser economicamente sustentável e operacionalmente funcional.
+3. **Desejável**:
+   - Atende às necessidades ou desejos do mercado ou da sociedade.
+   - Soluções que são relevantes e atraentes para as pessoas ou organizações.
 
 
