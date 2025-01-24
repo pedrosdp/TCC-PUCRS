@@ -1,2 +1,1 @@
 # TCC-PUCRS
-Memorial
