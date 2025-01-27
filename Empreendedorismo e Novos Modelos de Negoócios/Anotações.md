@@ -76,5 +76,59 @@ Product Management FLOW
 6. Seuenciamento
 7. Feedback rápido
 
-KANBAN - ITEM VAI PARA OUTRO LADO;
+Mitos na gestão de Filas - Assumir que maior utilização leva a desenvovimento mais rápido;
+Não enxergam que sobrecarga impacta a economia do produto.
+
+Filas criam... maiores lead times; aumentam o risco; mais variabilidade; mais sobrecarga; menor qualidade; menos motivação
+
+Exemplo:
+aguardando o marketing
+esperando a análise
+aguardando QA
+Aguardando
+
+Gerenciar filas é a chave para melhoramento da economia no desenvolvimento de produtos.
+
+Controle de Filas - Restringindo o trabalho em progresso conseguimos controlar o cycle time.
+
+trade off entre custo de capacidade extra e custo do atraso.
+
+Selecione demandas JIT - Just in time
+
+Sistemas Puxados
+kanban com k minúsculo
+
+tamanho de lote é fazer coisas menores;
+    Um lote grande cria:
+        Maior Cycle time
+        Feedback lento
+        Menor qualidade
+        Maior custo
+
+Lote menores; Quando os produtos são invisíveis, o tamanho do lote e a fila são invisíveis;
+Lotes pequenos são mais fáceis, baratos, granulares, testáveis e reversíveis;
+
+Quantifique o custo do atraso!
+tomar boas decisões econômicas... para influenciar decisões financeiras, fale a língua do dinheiro!
+
+Aceleração de Feedback - Aprendizado mais rápido
+
+Lidando com  a varibilidade; transformar em vantagem estratégica;
+
+Variabilidade no desenvolvimento de produtos;
+    Mudanças no mercado
+    Explorar novas informações
+    Testar hipóteses
+
+Assimetria e Opcionalidade;
+    Pequenas variações podem trazer grandes retornos assimétricos, ou seja, onde ganho é alto e o custo de falha é pequeno.
+    Alta varibialidade cria maior retoro econômico na presença de assimetria.
+
+
+
+
+
+
+
+
 
