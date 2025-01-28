@@ -1,174 +1,269 @@
-Aula 1 e 2 - Ricardo Beck
+# Aula 1 e 2 - Ricardo Beck
 
-O teste de software é um exercício de disciplina;
+## O teste de software é um exercício de disciplina
 
-O que é qualidade? 
+---
 
-    Qualidade é uma sensação, segundo o QAI, que um produto ou serviço atende a necessidade do cliente.
+### O que é qualidade?
+Qualidade é uma sensação, segundo o QAI, que um produto ou serviço atende a necessidade do cliente.
 
-O que é um projeto complexo
+---
 
-    São projetos que demandam uma efetiva gestão de riscos no processo tendo como dependências internas e externas.
+### O que é um projeto complexo
+São projetos que demandam uma efetiva gestão de riscos no processo tendo como dependências internas e externas.
 
-Ciclo de vida de projetos de software
+---
 
-    Waterfall - Cascata - Projetos regulares com etapas definidas para: Investigação, prototipação, desenvolvimento, testes e liberação;
+### Ciclo de vida de projetos de software
+- **Waterfall - Cascata**  
+  Projetos regulares com etapas definidas para: Investigação, prototipação, desenvolvimento, testes e liberação.
 
-    Ciclo de vida ágil; - Projetos interativos onde a cada etapa de tempo (sprint) ocorre uma entrega de valor;
+- **Ciclo de vida ágil**  
+  Projetos iterativos onde a cada etapa de tempo (sprint) ocorre uma entrega de valor.
 
-Tipos de testes e suas características
+---
 
-    Qualidade é caracterizada como uma "sensação" pelo Quality Assurance Institute, o usuário ou cliente sabe de um produto tem "qualidade" se esse produto, serviço ou artefato serve ao seu propósito;
+### Tipos de testes e suas características
+Qualidade é caracterizada como uma "sensação" pelo **Quality Assurance Institute**. O usuário ou cliente sabe que um produto tem "qualidade" se esse produto, serviço ou artefato serve ao seu propósito.
 
-Conceito de caixa transparente
-    advém da possibilidade de conhecermos as partes "internas" do artefato a ser tesatdo.
+---
 
-Uma unidade para teste
-    Em geral temos:
-        DD path - Caminho decisão à decisão
-        DU path - Declaração e Uso das variáveis
+### Conceito de caixa transparente
+Advém da possibilidade de conhecermos as partes "internas" do artefato a ser testado.
 
-Necessidade de isolamento entre componentes
-    As unidades devem ser isoladas entre si, de forma a garantir o mínimo de interferência externa quando os estímulos forem recebidos.
+---
 
-Estratégias de tese unitário
+### Uma unidade para teste
+Em geral temos:
+- **DD path** - Caminho decisão à decisão  
+- **DU path** - Declaração e Uso das variáveis
 
-TDD = Test Driven Development
+---
 
-    Cria-se o teste unitário antes de começar a codificação.
+### Necessidade de isolamento entre componentes
+As unidades devem ser isoladas entre si, de forma a garantir o mínimo de interferência externa quando os estímulos forem recebidos.
 
-BDD = Behavior Driven Development
-    Entende-se a demanda da unidade para que sejam criados os testes. Podem ser baseados em "promessas" ou requisitos funcionais / não funcionais.
+---
 
-Diferenças entre teoria e prática
-    No dia-a-dia cria-se o código e depois testa-se
-    A regra de ouro é 80% ou mais de cobertura de código.
+### Estratégias de teste unitário
+- **TDD (Test Driven Development)**  
+  Cria-se o teste unitário antes de começar a codificação.
 
-Integração dos testes unitários no dia-a-dia
+- **BDD (Behavior Driven Development)**  
+  Entende-se a demanda da unidade para que sejam criados os testes. Podem ser baseados em "promessas" ou requisitos funcionais / não funcionais.
 
-Ferramental para criação/execução e relatórios
-    Java - Ide Eclipse - Junit
-    JavaScript - Mocha
-    Jest 
-Criação e apresentação de relatórios
-Allure - github
 
-Lint;
+# Diferenças entre Teoria e Prática
 
-Testes de integração: Avaliam o ecossistema no qal os diferentes métodos ou classes se integram compondo a solução;
+- No dia a dia, cria-se o código e depois testa-se.  
+- A regra de ouro é **80% ou mais de cobertura de código**.
 
-Estratégias de integração de componentes
-Top-down
-Bottom-up
-Sanduíche
+---
 
-jenkins e codeway = ferarmental para criação/excução e relatórios
+## Integração dos Testes Unitários no Dia a Dia
 
-Testes de Interface com o usuário
-    Pontos
-        Verificação do alinhamento dos componentes visuis.
-        Verificação dos padrões de ancoragem, padronização das cores, fontes e espaçamentos
-        Verificação do vocabulário usado.
+### Ferramental para Criação/Execução e Relatórios
+- **Java** - IDE Eclipse - JUnit  
+- **JavaScript** - Mocha  
+- Jest  
 
-Diferenças entre testes de front-end e testes de interface gráfica
+### Criação e Apresentação de Relatórios
+- **Allure** (GitHub)
 
-Árvore do sistema;
-    Mental maps
-    Word
-    Jira
+---
 
-Acessibilidade - teclado, voz, alto-contraste e fluxos simples; W3C;
+### Lint
+Ferramenta para análise de código estático.
 
-Quais estratégias aplicar?
+---
 
-    O custo do defeito tende a aumentar conforme o processo de desenvolvimento de Software.
+## Testes de Integração
+Avaliam o ecossistema no qual os diferentes métodos ou classes se integram compondo a solução.
 
-Teste de performance - Num de usuários por tempo
-    São avaliações/inspeções periódicas que devem ser feitas visando um cenário de uso específico.
-    Entendimento do ambiente
+### Estratégias de Integração de Componentes
+- **Top-down**  
+- **Bottom-up**  
+- **Sanduíche**
 
-Definição de Baseline
-    é definida como o padrão atual ou padrão definido;
+---
 
-LoadRunner
-JMeter
-Ambas as ferramentas geram relatórios para análise.
+## Ferramental para Criação/Execução e Relatórios
+- **Jenkins**  
+- **Codeway**
 
-SLA e Performance
+---
 
-Garantia de QUALIDADE;
-    Estratégia de teste
-    Plano de testes
-    Casos ed teste
-    Pré-requisito
-    Passos de teste
-    Resultado esperado
-    Relatório de testes
+## Testes de Interface com o Usuário
+### Pontos de Verificação
+- Alinhamento dos componentes visuais.  
+- Verificação dos padrões de ancoragem, padronização das cores, fontes e espaçamentos.  
+- Verificação do vocabulário usado.
 
-Repetibilidade do processo
-    Deve ser auditável a qualquer momento.
-    Versionamento
-    Planejamento
-    Exercício de disciplina
+---
 
-    Relatórios de teste
-        Os relatórios de teste devem demonstar o andamento da qualdade no produto
-    
-    Priorização dos itens identificados
-        Os defeitos achados devem sempre ser priorizados de acordo com impacto ao usuário.
+## Diferenças entre Testes de Front-end e Testes de Interface Gráfica
+Testes de front-end são mais técnicos, focando na funcionalidade do código, enquanto os testes de interface gráfica avaliam a experiência e apresentação visual para o usuário.
 
-    Métricas voltadas ao controle de qualidade
-        O controle das métricas é necessário para apoiar as decisões gerenciais;
-            Defeitos por prioridade 
-            Defeitos por Sistema/Browser/requisito
+---
 
-    Teste AB    
+## Árvore do Sistema
+Ferramentas e técnicas para planejamento e organização:
+- **Mental Maps**  
+- **Word**  
+- **Jira**
 
-Definição de ROI : Retorno de investimento (return on investment) é um cálculo que auxilia o entendimento dos gastos compromentidos com a qualidade e o que poderia ter sido o prejuízo por não aplicar.
+# Acessibilidade
+- Considerar o suporte a:
+  - **Teclado** (navegação e atalhos)  
+  - **Voz** (comandos de voz e leitores de tela)  
+  - **Alto-contraste** (para usuários com baixa visão)  
+  - **Fluxos simples** (facilidade na navegação)  
+- Seguir as diretrizes do **W3C**.
 
-Estratégia de Qualidade de Software
-    Para compor a estratégia é necessário entender o propósito da solução.
+---
 
-Projetos ágeis  
-    Qualidade sempre presente.
-    Entender o ciclo de vida e como estar sempre atualizado
+## Quais Estratégias Aplicar?
+- O custo do defeito tende a **aumentar conforme o processo de desenvolvimento de Software avança**. É importante identificar e corrigir problemas o mais cedo possível.
 
-Desenvolvimento Agile
-    1. Ciclos de desenvolvimento (adicionado valor)
-    2. Review - validar o que foi feito
-    3. Feedback
-    4. documentados, guardados e entendido
-    5. Ajustes e rastrear
-    5. Próxima sprint
+---
 
-como atuar? de maneira direta, a qualidade deve ser refletida em todos os processo do ciclo de vida
+## Teste de Performance
+### Avaliação
+- Número de usuários por tempo.  
+- Realizar avaliações/inspeções periódicas para validar o desempenho em cenários específicos.  
 
-Testador x SDET
+### Considerações
+- **Entendimento do ambiente** no qual o software será executado.
 
-    SDET: Profissional que pode trabalhar como desenvolvedor de software ou desenvolvedor de testes. 
-    pode auxiliar nos processos dependendo da demanda
-    Tem um viés, por conhecer o código.
-    Profissional mais completo para atuar
-    Não é, necessariamente, especializado em testes
+---
 
-    Certificadores de mercado
-    QAI
-    ISTQB - treinamentos
+### Definição de Baseline
+- **Baseline**: É o padrão atual ou padrão definido como referência para comparação de desempenho.
 
-    Certificações mais reconhecidas pela indústria
-    CSTE - QAI
-    CSQA - QAI
-    CAST - QAI
+### Ferramentas
+- **LoadRunner**  
+- **JMeter**  
+  Ambas as ferramentas geram relatórios para análise.
 
-KPIs = Key Performance Indicator.
-Quais KPis devo escolher?
+---
 
-como correlacionar níveis de qualidade com métricas?
-    Nivel de teste unitário
-    Nível de teste de integração
-    Nível de sistema
+## SLA e Performance
+### Garantia de Qualidade
+Para garantir a qualidade, deve-se seguir:
+- **Estratégia de teste**  
+- **Plano de testes**  
+- **Casos de teste**  
+- **Pré-requisitos**  
+- **Passos de teste**  
+- **Resultado esperado**  
+- **Relatório de testes**
 
-JMeter = uma ferramenta Java que realiza testes de
-carga e de estresse em recursos estáticos
-ou dinâmicos, oferecidos por sistemas
-computacionais, através de usuários virtuais.
+---
+
+## Repetibilidade do Processo
+- Deve ser **auditável a qualquer momento**.
+- Elementos importantes:
+  - **Versionamento**  
+  - **Planejamento**  
+  - **Exercício de disciplina**
+
+---
+
+### Relatórios de Teste
+- Os relatórios devem demonstrar o **andamento da qualidade do produto**.
+
+---
+
+### Priorização dos Itens Identificados
+- Os defeitos encontrados devem ser priorizados com base no **impacto ao usuário**.
+
+---
+
+### Métricas Voltadas ao Controle de Qualidade
+O controle das métricas é essencial para apoiar decisões gerenciais:
+- Defeitos por **prioridade**.  
+- Defeitos por **sistema/browser/requisito**.
+
+
+    # Teste AB
+
+## Definição de ROI
+- **Retorno sobre investimento (ROI)** é um cálculo que avalia os gastos relacionados à qualidade e compara com o possível prejuízo que poderia ter ocorrido por não aplicar essas estratégias.
+
+---
+
+## Estratégia de Qualidade de Software
+- Para criar a estratégia, é fundamental entender o **propósito da solução** e os objetivos do projeto.
+
+---
+
+## Projetos Ágeis
+- A qualidade deve estar **sempre presente** em todas as etapas do ciclo de vida.
+- Manter o entendimento do ciclo de vida e **atualização contínua**.
+
+### Desenvolvimento Agile
+1. **Ciclos de desenvolvimento**: Adicionar valor continuamente.  
+2. **Review**: Validar o que foi feito.  
+3. **Feedback**: Coletar melhorias.  
+4. **Documentação**: Manter registros organizados e compreensíveis.  
+5. **Ajustes**: Rastrear e aplicar melhorias.  
+6. **Próxima Sprint**: Planejar e executar a etapa seguinte.
+
+- A qualidade deve ser refletida de forma direta em **todos os processos do ciclo de vida**.
+
+---
+
+## Testador x SDET
+
+### SDET (Software Development Engineer in Test)
+- Profissional que pode atuar como desenvolvedor de software ou desenvolvedor de testes.
+- Pode auxiliar no processo dependendo da demanda.  
+- **Conhece o código**, o que possibilita análises mais profundas.  
+- Um profissional **mais completo** para atuar no desenvolvimento e testes.  
+- Não é, necessariamente, especializado apenas em testes.
+
+---
+
+## Certificadores de Mercado
+- **QAI**  
+- **ISTQB** - Oferece treinamentos voltados para testes.
+
+### Certificações Mais Reconhecidas pela Indústria
+- **CSTE** - QAI  
+- **CSQA** - QAI  
+- **CAST** - QAI  
+
+---
+
+## KPIs (Key Performance Indicators)
+- Indicadores de desempenho chave para monitorar e avaliar a qualidade.
+
+### Como Correlacionar Níveis de Qualidade com Métricas?
+- **Nível de teste unitário**  
+- **Nível de teste de integração**  
+- **Nível de sistema**
+
+---
+
+## Ferramentas
+- **JMeter**: Uma ferramenta Java para realizar testes de carga e estresse em recursos estáticos ou dinâmicos, simulando usuários virtuais.  
+- **LoadRunner**: Ferramenta para testes de desempenho.  
+- **Perfmon** (Windows): Ferramenta para monitoramento de desempenho.
+
+---
+
+## Exemplos - Testes A/B
+
+### Quando e Por Que Aplicar?
+- Usados para comparar **duas versões de uma solução** e identificar qual apresenta melhor desempenho.
+- Permite tomada de decisão baseada em métricas de desempenho e interação do usuário.
+
+---
+
+## Analytics
+- **Monitoramento de Interações**:
+  - Onde o usuário clicou?  
+  - Quanto tempo ele gastou em cada interação?  
+- A análise dessas métricas auxilia no **aperfeiçoamento da experiência do usuário** e na tomada de decisões informadas.
+ 
+Aula 3 - Daniel Callegari
