@@ -267,3 +267,93 @@ O controle das métricas é essencial para apoiar decisões gerenciais:
 - A análise dessas métricas auxilia no **aperfeiçoamento da experiência do usuário** e na tomada de decisões informadas.
  
 Aula 3 - Daniel Callegari
+
+Qualidade de Software - Assegurar que o software cumpra com as suas especificações e atenda às necessidades dos clientes. 
+
+Verificação da correção, frente aos requisitos. Feita pela equipe; verificando se atende especificações á procura de DEFEITOS
+Consistência, clareza, segurança dos requisitos
+
+Validação com o cliente, no ambiente final
+Junto com o cliente; atende ao que o cliente quer? à procura de PROBLEMAS 
+Critérios: usuabilidade, desempenho, portabilidade do produto
+
+Técnicas Estáticas - Não requerem que o sistema seja executado - Revisões
+Técnica Dinâmicas requerem trablhar com uma representação executável do sistema - Testes
+
+Níveis de Teste de SOFTWARE
+
+  Teste de Unidade - Cada componente é testado separadamente.
+
+  Teste de Integração - Interfaces entre os componentes
+  
+  Teste de Sistema - Extremo do  teste de integração; Analisa as funcionalidades do sistema como um todo.
+
+  Teste de Regressão - Re-teste após reparo de falhas ou inclusão de funcionalidades.
+
+caso de teste é um subconjunto de entradas e saídas planejadas, para um ambiente controloado de execução. 
+
+Roteiro de teste é conjunto de casos de teste.
+
+Desafio: Definir um subconjunto mínimo de casos de teste com a maior probabilidade de apontar erros.
+
+Técnicas de TESTE
+
+  CAIXA PRETA - Teste Funcional - O que o sofwar faz e não como ele faz]
+-Independe da linguagem-paradigma
+-Pode ser manual ou automatizado
+-Pode ser usado em todos os níveis
+
+  CAIXA BRANCA - Teste Estrutural - Sobre o código fonte
+-Ocorre sobre o código fonte
+-Complexidade Ciclomática - É uma métrica - pode ser regiões; arcos; nodos;
+
+teste de unidades: 
+  Junit (para java)
+  Jest (para javascript)
+
+A menor unidade testável em um sistema
+Diversas granularidades
+
+teste de integração - TDD (test-driven development)
+1) adicione um teste
+2) execute. o novo teste deve falhar por motivos esperados
+3) mais simples que passa no novo teste
+4) Todos os testes agora devem passar
+5) Refatore
+6) Repita
+
+Sempre de maneira incremental. para feedback mais rápido
+
+Utiliza-se código de apoio
+
+Drivers: Responsáveis pelo controle dos testes.
+Stubs: Simulam comportamento da UNIDADE
+
+Caso do Foguete ariane 4. cálculo de inclinação;
+erro de overflow - no ariane 5;
+
+Técnicas de TOP-DOWN(stubs) ou BOTTOM-UP (drivers)
+
+Teste no nível de INTEGRAÇÃO
+  Orientado a objetos;
+  Características específicas;
+
+Testes de sistema, aceitação e regressão
+  Os testes lidam com o comportamento de um sistema como um todo, mas com diferente propósitos.
+
+Teste no nível de SISTEMA
+
+  Comportamento funcional
+  Requisitos de qualidade
+
+  FURPS MODEL
+  Funcionalidade
+  Confiabilidade
+  Eficiência
+  Manutenibilidade
+  Portabilidade
+  Usabilidade
+
+
+
+
