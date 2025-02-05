@@ -356,4 +356,20 @@ Teste no nível de SISTEMA
 
 Junit - Test
 
+O que é Análise de cobertura de testes**
 
+Teste de chamadas de API
+jsonplaceholder.com
+
+Jestjs.io
+
+Selenium. Plugin para o navegador;
+
+Lighthouse do google = Plugin
+
+Sugestões e dicas
+  -Dashboards
+  -25 erros de software mais comuns
+  -OWASP
+
+  "qualidade não é testável".
