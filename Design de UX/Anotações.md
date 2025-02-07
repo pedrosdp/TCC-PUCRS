@@ -44,3 +44,46 @@ Revelação Progressiva e Frequência de uso
     Segundo plano
     Terceiro plano
     
+Textos e mensagens
+    Eye tracking
+    -As pessoas NÃO olham pros banners
+    Como escrever? Tom neutro, informativo, conciso, amigável
+    Linguagem fácil de entender
+    
+Professor dá dicas e mostra detalhes que afetam a ExperiÊncia do Usuário
+
+Affordance'
+Constraints = Restrição; Impedir que algo acontença e gere um erro;
+
+Design System
+
+Aula 3 - Milene Selbach Silveira
+
+Livro - Interação Humano-Computador
+
+Sistemas para executar funções definidas vs sistemas projetados tendo o usuário em mente
+
+IHC - Interação Humano-Computador - Explicações e previsões para fenômenos de interação
+
+Considerar quem são os usuários
+que atividades precisam fazer
+onde a interação está acontecendo
+
+Entender as necessidades dos usuários; Ouvir o que as pessoas querem
+
+Interface: Toda a porção do sistema com a qual o usuário mantém o contato físico.
+Interação: Comunicação entre pessoas, mediadas por sistemas computacionais (interação usuário-sistema)
+
+Critérios de Qualidade em IHC
+Usuabilidade - Facilidade de aprendizado, facilidade de uso, eficiência de uso, flexibilidade, segurança no uso, satisfação do usuário
+Experiência do usuário
+Acessibilidade - Remoção de barreiras
+Comunicabilidade - Comunicar ao usuário a lógica do design
+
+Princípios de Design
+Visibilidade
+Feedback
+ConsistÊncia
+Affordance - Saber como utilizar
+
+Atividades básicas do design
