@@ -87,3 +87,52 @@ ConsistÊncia
 Affordance - Saber como utilizar
 
 Atividades básicas do design
+
+Processos de Design
+
+Análise da situação atual
+Síntese de uma intervenção
+Avaliação da nova situação
+
+processo iterativos - ciclos
+
+Pesquisa do usuário
+    Questões Éticas;
+    Coleta de dados;
+    Requisitos dos usuários;
+    Definição dos dados;
+    Gravação dos dados;
+    Tipos de dados a coletar;
+    Stakeholders - De quem coletar;
+    Técnica de Coleta - Combinar as técnicas
+        Entrevistas
+        Questionários
+        Grupo de foco
+        Estudo de Campo
+        Brainstorming
+        Card sorting
+    Organizando dados...
+        Perfil do Usuário
+        Personas
+        Análise de Tarefas
+        Cenários
+        Casos de Uso
+    Avaliação
+        Apropriação da tecnologia pelos usuários
+        Conformidade
+        Problemas?
+        Quando? Formativa ou construtiva e Somativa ou conclusiva;
+        Métodos: Investigação, Inspeção (Verificação de Diretrizes, Avaliação Heurística), Observação direta; Observação Indireta;
+
+
+    As 10 Heurísticas
+        Visibilidade do estado do sistema;
+        Correspondênca entre o sistema e o mundo real;
+        Controle e Liberdade do Usuário - Saída de emergência
+        Consistência e Padronização
+        Prevenção de ERROS
+        Reconhecimento em vez de memorização
+        Flexibilidade e Eficiência de Uso
+        Projeto Estético e Minimalista
+        Auxilia os usuários a reconhecerem, diagnosticarem e se recuperarem de erros
+        Ajuda e Documentação;
