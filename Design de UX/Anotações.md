@@ -136,3 +136,54 @@ Pesquisa do usuário
         Projeto Estético e Minimalista
         Auxilia os usuários a reconhecerem, diagnosticarem e se recuperarem de erros
         Ajuda e Documentação;
+
+    Severidade de um problema 
+        cosmético
+        pequeno
+        grande
+        catastrófico
+    
+    Relato dos RESULTADOS
+
+    Avaliação Heurísica e Uso de Checklists
+
+Métodos de Observação de Uso
+    Estudo de Campo
+    Teste de Usabilidade
+    Avaliação de Comunicabilidade
+    Prototipação em Papel
+
+Estudos em laboratório
+    Objetivos
+    Amostra
+    Ambiente
+    Observação
+    Questionamentos
+    Captura de medidas
+    Recomendação de melhorias
+
+Etapas de um teste 
+    Desenvolver o experimento
+    5 usuários; ++
+    Orientar as sessões de observação
+    Coletar os dados
+    Analisar os dados
+
+
+Combinação de métodos
+    Critério de Qualidade de Uso
+    Etapa do ciclo de design
+    Prazo
+    Custo
+    Número de especialistas
+    Número de usuários
+    Configuaração do ambiente
+    Equipamentos
+
+Pontos Importantes
+    Considerar sempre quem são os usuários, que atividades precisam fazer, onde a interação está acontecendo;
+
+Recursos. 
+    www.interaction-design.org/literature
+    Conferências da área de IHC - Artigos
+    
