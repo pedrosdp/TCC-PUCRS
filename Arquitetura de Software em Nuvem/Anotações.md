@@ -70,8 +70,39 @@ Brasil.. Microsoft e AWS. Google ainda não.. chile.
 
 Santander em campinas, tecnologia avançada;
 
+Aspectos essenciais da Arquitetura em Nuvem (Princípios)
+
+    1) Otimização de Custos - Pode até ficar mais caro é preciso analisar; Plataformas tem ferramentas. Gerenciamento Financeiro;
+    
+    2) Excelência Operacional - Trabalhando de forma correta; 
+        Antecipar falhas; Testes;
+    
+    3) Eficiência de Performance - Atender os requisitos;
+        Monitorar; Usar tecnologias avançadas; Usar containers;
+
+    4) Confiabilidade - Data Center replicado; Recuperar falhas automaticamente; Escalabilidade; Disponibilidade - Estudo; Cálculo de disponibilidade com dependências rígidas. Cálculo de disponibilidade com componentes redundantes;
+
+    5) Segurança - Especialistas em seg. da nuvem; Implenmentar uma base sóldia de identidade e se preparar para a segurança;
 
 
+Multi-Cloud e Broken;
+
+Plataformas 
+
+Amazon - AWS = Precursora na NUVEM; 2006; Prós= Maior força do mercado. Novos Produtos e Serviços; Contra= Custos, as empresas não entendem muito bem.
+Bare-Metal Server; Tem seu próprio Banco de dados; Firewall e segurança na rede; 
+
+Microsoft Azure = É a que mais conseguiu chegar perto da AWS. Vantagem pq tem os outros apps; Ligação entre eles; Machine Learning;
+
+GCP = Google Cloud Platform; IaaS e PaaS; 10% do mercado; Principal fator custos. Permite criar as VMs. Pionerio em cobrança por segundos; BigTable;
+
+oracle, alibaba, IBM; procurando nichos;
+
+Case de ambiente monolítico para Nuvem; Empresa de Delivery precisavam melhorar. Durante os picos a solução caia e agora a aplicação é escalável; Tiveram um ganho absurdo; Elasticidade da INFRA; Redundância dos serviços; Backups; Paga pelo uso; Autoscaling;
+
+AWS WA Tool - Tá pensando certo ou não?
+
+Vendor Lock In. Pensar bem, para não pagar o preço;
 
 
 Aula 03 - Tiago Coelho Ferreto
