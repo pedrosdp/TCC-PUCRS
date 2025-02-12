@@ -28,11 +28,81 @@ Elementos da Arquitetura Client-Side
 
 Design System: Todos os componentes e padrões.
 
-URI - api hash
-URL
-URN
-CDN
+URI - 
+    URL URN (api hash)
+    CDN ou rees de distribuição de conteúdo são redes de servidores otimizados para entrega de conteúdo estáticos ou dinâmicos
 
 Protocolos
 Aplicação Transporte Rede Interface
+
+HTTP é mantido pelo World Wide Consortium (W3C)
+
+Arquitetura Client-Side: Diversos aspectos deverão ser levados em consideração em seu projeto FRONTEND
+    Santíssima Trindade
+        CSS (Guias de Estilos)
+        HTML
+        JavaScript
+        TypeScript
+            Diversas Vantagens
+
+Estrutura HTML
+    Head
+    Body
+    Meta tags (compartilhamento de conteúdo)
+
+Protocolo - OpenGraph
+
+Tecnologias WEB
+    SEO - Requisitos padrões; boa práticas para seu site se encontrado no sistema de busca
+        Informações adequadas
+        Console do google para análise SEO
+
+Boas Práticas - CSS
+
+Serviços WEB
+    Empresas Tradicionais - Monolitos
+    SOA - Arquitetura Orientada a Serviços
+
+SOAP - É um protocolo de comunicação baseado em XML, utilizado para a troca de mensagens estruturadas entre ambientes distribuídos.
+
+Webservices. Microserviços, Eventos
+
+Webservices e APIs REST;
+
+Métodos usados:
+    Get
+    Post
+    Put
+    Delete
+
+CSR - Renderização do lado do cliente
+
+SSR - Renderização do lado do servidor
+    Vantagem SSO
+
+Universal Renderização - unir as vantagens do CSR e SSR
+
+Abordagens de Desenvolvimento
+
+    SPA - Single Page Application
+    Mobile First
+    PWA - Progressive WebApp
+
+Frameworks - Conjuntos de ferrramentas. bibliotecas e padrões de código que facilitam a criação de interfaces de usuários interativas e responsivas em aplicativos web
+
+Stackoverflow - site
+
+Angular; Google
+React; Facebook
+Vue.js
+Next.js
+
+Frameworks Multiplataformas
+
+    react native - facebook
+    flutter - google
+    xamarin - microsoft
+    Ionic -
+
+
 
