@@ -72,7 +72,30 @@ Modern Code Review
 
 Piramide de Revisão de Código; 
 
+Bad Smells - O que é um código ruim?
+Refatoração
+-
+Atributos de Qualidade
+-
 
+Complexidade Essencial x Acidental
+
+Leis de Lehman - 
+    Mudança contínua
+    Aumento da complexidade
+    Evolução de programa de grande porte
+    Estabilidade organizacional
+    Conservação da familiaridade
+    Crescimento contínuo
+    Declínio de qualidade
+    Sistema de feedback
+
+SWEBok
+    Tipos de Manutenção
+
+C4 model,
+ADR - Arquiteturh Decisions REader
+Architeture Haiku
 
 
 

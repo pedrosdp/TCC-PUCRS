@@ -124,7 +124,17 @@ Assimetria e Opcionalidade;
     Pequenas variações podem trazer grandes retornos assimétricos, ou seja, onde ganho é alto e o custo de falha é pequeno.
     Alta varibialidade cria maior retoro econômico na presença de assimetria.
 
-
+The Business Model Canvas'
+    Quem é nosso cliente?
+    O que ele precisa resolver?
+    Qual problema a gente resolve?
+    Proposta de Valor
+    Como chegar nesse cliente?
+    Vários canais para chegar no cliente.[também é testado]
+    Como manter o relacionamento do cliente comigo? Relacionamento por comunidades
+    Como o cliente vai pagar por isso?
+    Quem vão ser meus parceiros?
+    
 
 
 

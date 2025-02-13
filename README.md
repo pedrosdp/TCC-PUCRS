@@ -6,26 +6,22 @@ DevOps Básico - OK
 Segurança de Software - OK 
 Programação para Web - OK
 Mentalidade Ágil LEAN - OK
-
-**Lean Startup & MVP 
-**Arquitetura Client-Side
-
 Arquitetura de Software em Nuvem - OK
 Inovação e Transformação Digital - OK
 Design UI - OK
-
-**Técnicas Ágeis de Programação
-**Web Services
-
 Design de UX - OK
 Banco de dados Relacional - OK
 Microserviços - OK
-
-**Empreendedorismo e Novos Negócios 
-
 Qualidade e Teste em Software - OK
 
+**PENDENTES**
+
+**Arquitetura Client-Side - OK
+**Lean Startup & MVP 
+**Técnicas Ágeis de Programação
+**Web Services
+**Empreendedorismo e Novos Negócios 
 **Banco de Dados NOSql
 **Design thinking
 **Arquitetura Server-Side
-**DevOp Avançado 
+**DevOps Avançado 

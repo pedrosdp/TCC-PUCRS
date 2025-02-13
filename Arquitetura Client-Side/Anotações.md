@@ -104,5 +104,20 @@ Frameworks Multiplataformas
     xamarin - microsoft
     Ionic -
 
+Micro-serviços web são uma abordagem arquitetural para o desenvolvimento de software, na qual uma aplicação é divida em componentes independentes, isolado.
+
+Monolito SPA
+Monolito API
+
+Estratégia para multifuncionalidade - DDD auxiliam neste processo.
+
+Monolítos Modulares
+    Shopify
+
+Atores 
+    Gateway
+    BFF - Backend for Frontend
+    GraphQL
+    
 
 
