@@ -32,4 +32,27 @@ Investigação - Início do Descobrimento
     Shadowing
     Identidade Corporativa
     
+Organização e Decisão
+Criação Colaborativa
+    Criatividade
+        Reskilling
+
+Empresa criativa cresce 6% a mais do que uma que não usa a criatividade para a geração de Valor
+
+Brainstorming - 12 dicas
+
+Prototipagem no framework do design thinking
+
+Implentação e entrega
+
+Aula 3 - Luis Humberto de Mello Villwock
+
+É necessário retomar a capacidade de imaginar.
+
+Há 40.000 anos estamos permanentemente em Transformações Globais.
+
+"Eternos construtores de castelos de areias" Luis Humberto de Mello Villwock
+
+
+
 
