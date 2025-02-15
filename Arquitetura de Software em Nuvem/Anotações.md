@@ -107,3 +107,118 @@ Vendor Lock In. Pensar bem, para não pagar o preço;
 
 Aula 03 - Tiago Coelho Ferreto
 
+Histórico - 
+
+*Virtualização Anos 60 e 70 - IBM System/360
+*Internet (Anos 70 e 80) - ARPANET
+*PCs e Supercomputadores (anos 80 e 90)
+*Grid Computing (anos 90 e 2000) - vários clusters
+*Virtualização (anos 90 e 2000) - VMware
+
+Nuvem pq? 
+-Reduzir os investimentos com infraestrutura
+-Evitar a subutilização de recursos
+-Necessidade de uma plataforma única
+
+O que é Computação em NUVEM?
+    é um modelo pay-per-use para permitir o acesso a rede sob demanda.
+
+    self-service - processo automatizado
+
+    elasticidade
+
+    multitenant - ambiente compartilhado (isolado)
+
+    Modelos de serviço
+
+        SaaS - aplicação e infra - tudo responsabilidade do provedor
+        PaaS - desenvolver apps
+        IaaS - recursos operacionais básicos
+
+Modelos de implantação
+
+Nuvem pública - Estrutura compartilhada.
+    
+    AWS (nuvem: netflix)
+    
+    Microsoft (walmart, linkedin, boeing)
+
+    Google (snapchat, airbnb e paypal) - autoelasticidade
+    
+    Outras (ibm cloud, oracle, alibaba cloud)
+
+São datacenters espalhados pelo mundo. 
+
+Evolução
+    Colocation
+    Densidade
+    Containers
+    Modular
+    SW defined - Gerencia por software
+
+Power usage efective - PUE
+
+Serviços de NUVEM
+    Principais Serviços
+        
+        1) Computação
+
+                a) Máquina Virtual - EC2, Azure Virtual e Google. 
+                (Imagem base, tipo de instância, rede, disco, escalabilidade vertical x horizontal)
+                
+                b) Container (Provisonamento de aplicações) Hospedagem das imagens no register. Kubernetes (orquestrar os containers)
+
+                c) função como serviço (computação sem servidor)
+
+        2) Armazenamento
+                
+                a) baseado em objetos (Armazenaento de arquivos) Cloud Storage
+                b) baseado em bloco
+                c) sistema de arquivos distribuídos (arquivos compartilhados entre diversas instâncias)
+                d) banco de dados gerenciados pelo povedor de nuvem. Amazon RDS, Azure SQL, Cloud SQL
+                
+        3) Comunicação
+                a) Rede virtual privada (não existe acesso externo) Amazon VPC
+                b) Load balancer
+                c) CDN - Content Delivery Network. Rede rápida para distribuição de conteúdo. Clientes acessam conteudo amis próximo. Menos latência. Menos tráfego. Amazon CloudFront. Azure CDN. Cloud CDN.
+
+        4) Segurança
+                a) Controle de acesso (quem vai conseguir acessar a nuvem). Usuários, chaves. Least privilege principie.
+
+    Serviços avançados de nuvem
+        
+        Big Data Analytics - Hadcop e Spark
+        
+        Edge Computing - Computação na borda; aproximar os dados do usuário; AWS local zones;
+
+    Outros serviços
+        AWS Cloud Formation
+        Amazon Managed Blockchain
+        Amazon HoneyCode
+        AWS CodeBuild
+        Amazon WorkSpaces
+        AWS IoT Core
+        Amazon Gamel.ift
+        
+Soluções, Arquiteturas e Custo na nuvem
+
+Certificações em Nuvem
+    Exames
+        AWS (11)
+        Azure
+
+Nuvem privada
+
+    Azure Stack. Alocar localmente as nuvens.
+    OpenStack.
+
+Cloud Native Computing
+ é uma abordagem para criar e executar aplicativos que exploram totalmente as vantagens do modelo de computação em nuvem.
+
+ Cloud Foundry
+
+Nuvem híbrida
+
+
+
+

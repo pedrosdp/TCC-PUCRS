@@ -53,6 +53,22 @@ Há 40.000 anos estamos permanentemente em Transformações Globais.
 
 "Eternos construtores de castelos de areias" Luis Humberto de Mello Villwock
 
+Inovação é trazer soluções novas. Criatividade + Empreendedorismo = Inovação
 
+A gente precisa de ambientes inspiradores gestão de processos e indivíduos talentosos. Luis humberto Mello Villwock
+
+A gente é movido pelos desafios de evoluir. Luis humberto Mello Villwock
+
+princípios básicos do DT
+
+Empatia
+Colaboração
+Experimentação
+
+Disciplinar - Multidisciplinar - transdisciplinar
+
+Cases Tecnológicos
+    Guia para Idosos
+    
 
 

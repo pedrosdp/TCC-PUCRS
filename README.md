@@ -13,15 +13,19 @@ Design de UX - OK
 Banco de dados Relacional - OK
 Microserviços - OK
 Qualidade e Teste em Software - OK
+Design thinking
 
 **PENDENTES**
 
-**Arquitetura Client-Side - OK
-**Lean Startup & MVP 
-**Técnicas Ágeis de Programação
-**Web Services
-**Empreendedorismo e Novos Negócios 
-**Banco de Dados NOSql
-**Design thinking
-**Arquitetura Server-Side
-**DevOps Avançado 
+**Lean Startup & MVP - Aula 3
+**Arquitetura Client-Side - Aula 2 e 3
+
+
+**Técnicas Ágeis de Programação - Aula 2 e 3
+**Web Services - Aula 2 e 3
+
+**Empreendedorismo e Novos Negócios - Aula 2 e 3
+**Banco de Dados NOSql - Aula 1, 2 e 3
+
+**Arquitetura Server-Side Aula 1, 2 e 3
+**DevOps Avançado Aula 1, 2 e 3
